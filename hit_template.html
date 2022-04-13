@@ -1,0 +1,52 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<crowd-form>
+    <crowd-classifier
+      name="category"
+      categories="['Non-biased', 'Biased']"
+      header="Is this text biased?"
+    >
+      <classification-target style="white-space: pre-wrap">
+        {{ task.input.taskObject }}
+      </classification-target>
+
+      <full-instructions header="Instructions">
+        <p><strong>Biased</strong>: the text expresses someone's opinion or editorializes the subject; it uses words or phrasing that express the writer's opinion</p>
+        <p><strong>Non-biased</strong>: the text does not express opinion; it is written in a manner that does not express an opinion on the subject</p>
+        <p>Biased text might be written in a way that presents an opinion on the subject, while non-bias text describes facts without providing any opinion on them.</p>
+      </full-instructions>
+
+      <short-instructions>
+        Determine whether or not the text shown is biased and explain the reasoning behind your choice.
+      </short-instructions>
+    </crowd-classifier>
+    <!--
+      <crowd-text-area> => A field for text input.
+      Attributes:
+          [auto-focus] A Boolean switch that, if present, puts the cursor in this element on-load so that users can immediately begin typing without having to click inside the element.
+          [auto-validate] A Boolean switch that, if present, turns on input validation. The behavior of the validator
+        can be modified by the error-message and
+        allowed-pattern attributes.
+          [char-counter] A Boolean switch that, if present, puts a small text field beneath the lower-right corner of the element, displaying the number of characters inside the element.
+          [disabled] A Boolean switch that, if present, displays the input area as disabled.
+          [error-message] The text to be displayed below the input field, on the left side, if validation
+        fails.
+          [label] A string that is displayed inside a text field.This text shrinks and rises up above a text field when the worker starts typing in the
+        field or when the value attribute is set.
+          [max-length] An integer that specifies the maximum number of characters allowed by the element. Characters typed or pasted beyond the maximum are ignored.
+          [max-rows] An integer that specifies the maximum number of rows of text that are allowed within a
+        crowd-text-area. Normally the element expands to accommodate new rows. If this is set, after
+        the number of rows exceeds it, content scrolls upward out of view and a scrollbar control
+        appears.
+          [name] A string used to represent the element's data in the output.
+          [placeholder] A string presented to the user as placeholder text. It disappears after the user puts
+        something in the input area.
+          [rows] An integer that specifies the height of the element in rows of text.
+          [value] A preset that becomes the default if the worker does not provide input. The preset appears
+        in a text field.
+    
+      Reference: https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-crowd-text-area.html
+    -->
+    <crowd-text-area auto-validate="" label="Rationale for your choice" name="rationale" placeholder="Explain why you believe this text is or is not biased.">
+    </crowd-text-area>
+</crowd-form>
