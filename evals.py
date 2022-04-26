@@ -6,8 +6,8 @@ import re
 import string
 
 from gensim.models import Word2Vec
+import gensim.downloader as api
 import numpy as np
-from functools import reduce
 
 import nltk
 from nltk import word_tokenize
@@ -22,69 +22,9 @@ from matplotlib import pyplot
 # df_annotators = pd.read_csv('./mbic/annotators.csv')
 df_annotations = pd.read_json('./mbic/annotations_cleaned.json')
 df_labels = pd.read_json('./mbic/labeled_dataset.json')
-df_agreement = pd.read_csv('./agreement.csv')
 
-regex = r'[^\w\-\s]'
-
+# run this once to download the natural language toolkit set of stopwords
 # nltk.download('stopwords')
-
-# def compute_agreement():
-#     """ Returns an ordered list ranking each of the annotators by their agreement with the final label 
-#         Also outputs the results to agreement.csv to avoid having to rerun
-#     """
-#     agreement = {}
-#     annotators = df_annotations['survey_record_id'].unique()
-    
-#     with open('./agreement.csv', 'w') as agreement_csv:
-#         writer = csv.writer(agreement_csv)
-#         csv_header = [
-#             'annotator',
-#             'num_annotations',
-#             'num_agreed_bias',
-#             'Label_bias_agreement',
-#             'num_agreed_opinion',
-#             'Label_opinion_agreement'
-#         ]
-#         writer.writerow(csv_header)
-
-#         # for each unique annotator in the annotations
-#         for annotator in annotators:
-#             # grab that annotator's annotations in a dataframe
-#             df_annotator_annotations = df_annotations.loc[df_annotations['survey_record_id'] == annotator]
-#             agreed_bias = 0
-#             agreed_opinion = 0
-
-#             # look at each of the annotator's annotations and add to the count if it matches the true label
-#             for _, row in df_annotator_annotations.iterrows():
-#                 predicted_bias = row['label']
-#                 actual_bias = df_labels.loc[df_labels['sentence'] == row['text']]['Label_bias'].item()
-
-#                 if predicted_bias == actual_bias:
-#                     agreed_bias += 1
-
-#                 predicted_opinion = row['factual']
-#                 actual_opinion = df_labels.loc[df_labels['sentence'] == row['text']]['Label_opinion'].item()
-
-#                 if predicted_opinion == actual_opinion:
-#                     agreed_opinion += 1
-
-#             num_annotations = len(df_annotator_annotations.index)
-#             # compute the annotator's agreement as predicted - actual over the total number of annotations
-#             agreement[annotator] = {
-#                 'Label_bias_agreement': (agreed_bias-num_annotations)/num_annotations,
-#                 'Label_opinion_agreement': (agreed_opinion-num_annotations)/num_annotations
-#             }
-#             csv_row = [
-#                 annotator,
-#                 num_annotations,
-#                 agreed_bias,
-#                 agreement[annotator]['Label_bias_agreement'],
-#                 agreed_opinion,
-#                 agreement[annotator]['Label_opinion_agreement']
-#             ]
-#             writer.writerow(csv_row)
-    
-#     return agreement
 
 def subset_agreement(n, annotators=[]):
     """ Returns the agreement of n annotators and the true label. Chooses randomly if a list of annotators is not provided. """
@@ -165,10 +105,10 @@ def report_cluster_agreement(df):
         opinion_variance = statistics.variance(individual_opinion_agreements)
 
         print(f'Cluster:\t\t{cluster}, N = {len(annotators)}')
-        print(f'Bias label agreement:\t\t{cluster_agreement["Label_bias_agreement"]:.4f}')
+        print(f'Bias label agreement:\t{cluster_agreement["Label_bias_agreement"]:.4f}')
         print(f'> Variance:\t\t{bias_variance:.4f}')
-        print(f'Opinion label agreement:\t{cluster_agreement["Label_opinion_agreement"]:.4f}')
-        print(f'> Variance:\t\t{opinion_variance:.4f}\n')
+        # print(f'Opinion label agreement:\t{cluster_agreement["Label_opinion_agreement"]:.4f}')
+        # print(f'> Variance:\t\t{opinion_variance:.4f}\n')
 
 def n_random_subsets(N, n):
     """ Reports mean and variance agreement for N random subsets of n annotators 
@@ -202,7 +142,7 @@ def clean_text(text):
     text = re.sub(r"\[(.*?)\]", "", text)       # Remove [+XYZ chars] in content
     text = re.sub(r"\s+", " ", text)            # Remove multiple spaces in content
     text = re.sub(r"\w+…|…", "", text)          # Remove ellipsis (and last word)
-    text = re.sub(r"(?<=\w)-(?=\w)", "", text)  # Remove dash between words
+    #text = re.sub(r"(?<=\w)-(?=\w)", " ", text) # Remove dash between words
     text = re.sub(r'[^\w\-\s]', "", text)       # Remove punctuation
 
     return text
@@ -228,7 +168,7 @@ def apply_word2vec():
 in_model = 0
 notin_model = 0
 
-def words_to_vectors(words, model, padding=12):
+def words_to_vectors(words, wv, padding=12):
     """ Converts a comma-separated string of words/phrases to a padded list of word vectors.
         Padding length has been precomputed - the longest list of words/phrases provided by an annotator 
         in MBIC is 12 long, so all lists are padded to length 12 with zeroed out vectors to make the features 
@@ -239,7 +179,7 @@ def words_to_vectors(words, model, padding=12):
     """
     # empty word list
     if not words:
-        return np.zeros(100)
+        return np.zeros(300)
 
     global in_model, notin_model
 
@@ -250,7 +190,7 @@ def words_to_vectors(words, model, padding=12):
         # single word, like item == ['gun']
         if len(item) == 1:
             try:
-                vecs.append(model.wv[item[0]])
+                vecs.append(wv[item[0]])
                 in_model += 1
             except KeyError:
                 print(f'[single] "{item[0]}" not in word embedding model, skipping.')
@@ -261,7 +201,7 @@ def words_to_vectors(words, model, padding=12):
 
             for word in item:
                 try:
-                    phrase_vec.append(model.wv[word])
+                    phrase_vec.append(wv[word])
                     in_model += 1
                 except KeyError:
                     print(f'[phrase] "{word}" not in word embedding model, skipping.')
@@ -273,13 +213,12 @@ def words_to_vectors(words, model, padding=12):
                 vecs.append(phrase_vec.mean(axis=0))
    
     if len(vecs) == 0:
-        vecs.append(np.zeros(100))
+        vecs.append(np.zeros(300))
 
     # flatten the vectors into a single vector.
     vecs = np.asarray(vecs)
     vec = vecs.mean(axis=0)
-    print(vec)
-    assert len(vec) == 100
+
     return vec
 
 # source: https://dylancastillo.co/nlp-snippets-cluster-documents-using-word2vec/
@@ -343,14 +282,14 @@ def plot_clusters(df_clusters):
     pyplot.show()
 
 def main():
-    # train the word2vec model for generating word embeddings
-    model = apply_word2vec()
+    # import the word2vec model for generating word embeddings
+    wv = api.load('word2vec-google-news-300')
 
     # clean up the words in the data frame by turning them into lists of lists and removing stop words
     df_annotations['words'] = df_annotations['words'].apply(lambda x : prepare_words(x))
 
     # map the bias keywords to word embeddings
-    df_annotations['word_embeddings'] = df_annotations['words'].apply(lambda x : words_to_vectors(x, model))
+    df_annotations['word_embeddings'] = df_annotations['words'].apply(lambda x : words_to_vectors(x, wv))
 
     # report how many tokens we lost since the model didn't know about them
     print(f'rationale tokens known to model:\t{in_model}')
@@ -358,7 +297,7 @@ def main():
     print(f'percent unknown:\t\t\t{(notin_model/(notin_model+in_model))*100:.2f}%')
 
     word_embeddings = list(df_annotations['word_embeddings'].values)
-    num_clusters = 5
+    num_clusters = 3
     num_batches = 500
     clustering, cluster_labels = mbkmeans_clusters(word_embeddings, num_clusters, num_batches, False)
 
@@ -393,7 +332,3 @@ def prepare_words(text):
     return tokens
 
 main()
-
-# TODO
-# 1 improve the training and tokenization of words (more filters, remove stop words, remove junk)
-# X 2 write function to calculate agreement w/ chosen groups (by cluster) and gold standard
