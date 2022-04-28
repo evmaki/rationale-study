@@ -27,6 +27,9 @@ df_labels = pd.read_json('./mbic/labeled_dataset.json')
 
 # nltk.download('stopwords')
 
+def compute_agreement(num_agreed, num_annotations):
+    return (num_agreed-num_annotations)/num_annotations
+
 def compute_annotator_agreement():
     """ Returns an ordered list ranking each of the annotators by their agreement with the final label 
         Also outputs the results to agreement.csv to avoid having to rerun
@@ -70,8 +73,8 @@ def compute_annotator_agreement():
             num_annotations = len(df_annotator_annotations.index)
             # compute the annotator's agreement as predicted - actual over the total number of annotations
             agreement[annotator] = {
-                'Label_bias_agreement': (agreed_bias-num_annotations)/num_annotations,
-                'Label_opinion_agreement': (agreed_opinion-num_annotations)/num_annotations
+                'Label_bias_agreement': compute_agreement(agreed_bias, num_annotations),
+                'Label_opinion_agreement': compute_agreement(agreed_opinion, num_annotations)
             }
             csv_row = [
                 annotator,
@@ -131,14 +134,14 @@ def subset_agreement(n, annotators=[]):
         num_annotations += num_annotations_from_annotator
 
         individual_agreement[annotator] = (
-            (individual_agreed_bias-num_annotations_from_annotator)/num_annotations_from_annotator, 
-            (individual_agreed_opinion-num_annotations_from_annotator)/num_annotations_from_annotator
+            compute_agreement(individual_agreed_bias, num_annotations_from_annotator),
+            compute_agreement(individual_agreed_opinion, num_annotations_from_annotator)
         )
 
     # compute the group's overall agreement as predicted - actual over the total number of annotations
     agreement = {
-        'Label_bias_agreement': (agreed_bias-num_annotations)/num_annotations,
-        'Label_opinion_agreement': (agreed_opinion-num_annotations)/num_annotations,
+        'Label_bias_agreement': compute_agreement(agreed_bias, num_annotations),
+        'Label_opinion_agreement': compute_agreement(agreed_opinion, num_annotations),
         'individual_agreement': individual_agreement
     }
 
@@ -200,8 +203,8 @@ def clean_text(text):
 
     return text
 
-def train_word2vec():
-    if exists('./results/mbic-article-word2vec.model'):
+def train_word2vec(retrain=False):
+    if exists('./results/mbic-article-word2vec.model') and not retrain:
         return Word2Vec.load('./results/mbic-article-word2vec.model')
 
     # convert each sentence text to a list of individual words
@@ -228,7 +231,7 @@ notin_model = 0
 
 unknown_words = []
 
-def words_to_vectors(words, model, padding=12):
+def words_to_vectors(words, model):
     """ Converts a comma-separated string of words/phrases to a padded list of word vectors.
         Padding length has been precomputed - the longest list of words/phrases provided by an annotator 
         in MBIC is 12 long, so all lists are padded to length 12 with zeroed out vectors to make the features 
@@ -311,7 +314,7 @@ def birch_clusters(X, k):
     b = Birch(n_clusters=k).fit(X)
     return b, b.labels_
 
-def plot_clusters(df_clusters):
+def plot_clusters(df_clusters, title=''):
     # grab each unique cluster in the dataframe
     clusters = df_clusters['cluster'].unique()
 
@@ -334,17 +337,23 @@ def plot_clusters(df_clusters):
 
         ax.scatter(xs, ys, zs, label=f'{cluster}')
     
+    pyplot.title(title)
     pyplot.legend()
     pyplot.show()
 
-def report_cluster_keywords(model, clustering, num_clusters, num_words):
+def plot_cluster_histograms(df_clusters):
+    for cluster in df_clusters['cluster'].unique():
+        print(f'Plotting histogram of cluster {cluster} annotators...')
+        plot_agreement_histogram(10, annotators=df_clusters.loc[df_clusters['cluster'] == cluster]['survey_record_id'].unique())
+
+def report_cluster_keywords(model, clustering, num_clusters, cluster_centers, num_words):
     """ Reports the most representative terms in the given clusters. This is a qualitative way
         of examining the types of words each cluster is formed around 
     """
 
     for i in range(num_clusters):
         tokens_per_cluster = ''
-        most_representative = model.wv.most_similar(positive=[clustering.cluster_centers_[i]], topn=num_words)
+        most_representative = model.wv.most_similar(positive=[cluster_centers[i]], topn=num_words)
         
         for t in most_representative:
             tokens_per_cluster += f'{t[0]} '
@@ -371,13 +380,19 @@ def prepare_words(text):
 
     return tokens
 
-def plot_agreement_histogram(num_bins=5):
+def plot_agreement_histogram(num_bins=5, annotators=[]):
     if not exists('./results/agreement.csv'):
         compute_annotator_agreement()
 
     df = pd.read_csv('./results/agreement.csv')
 
-    n, bins, patches = pyplot.hist(df['Label_bias_agreement'].values, num_bins)
+    if len(annotators) == 0:
+        n, bins, patches = pyplot.hist(df['Label_bias_agreement'].values, num_bins)
+
+    else:
+        xs = df[pd.DataFrame(df['annotator'].tolist()).isin(annotators).any(1).values]['Label_bias_agreement']
+        n, bins, patches = pyplot.hist(xs.values, num_bins)
+
     pyplot.xlabel('agreement')
     pyplot.ylabel('annotator count')
     pyplot.title('Histogram of annotator agreement with gold standard label')
@@ -419,7 +434,7 @@ def main():
     word_embeddings = list(df_annotations['word_embeddings'].values)
     num_clusters = 3
     num_batches = 500
-    
+
     clustering, cluster_labels = birch_clusters(word_embeddings, num_clusters)
 
     df_clusters = pd.DataFrame({
@@ -430,9 +445,11 @@ def main():
     })
 
     report_cluster_agreement(df_clusters)
-    #report_cluster_keywords(model, clustering, num_clusters, 10)
+    report_cluster_keywords(model, clustering, num_clusters, clustering.subcluster_centers_, 10)
 
-    plot_clusters(df_clusters)
+    plot_clusters(df_clusters, 'Clusters of keyword rationale content')
+    # plot_cluster_histograms(df_clusters)
 
+ 
 main()
 # plot_agreement_histogram(18)
