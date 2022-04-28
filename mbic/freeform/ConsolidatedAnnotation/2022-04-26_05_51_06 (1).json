@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "1",
+    "dataObject": { "content": "Peace and justice advocates are praising a letter from a dozen House Democrats urging further military aid to Israel be conditioned on the state not annexing larger swaths of the occupied West Bank and calling on Congress to ensure the human rights of the Palestinian people be respected." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A1OXYF7SCAFA1", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"praising a letter from a dozen House Democrats urging further military\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Palestinian people had the right to an independent, free and sovereign State\"}" } }
+    ]
+  }
+]

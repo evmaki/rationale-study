@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "8",
+    "dataObject": { "content": "U.S. President Donald Trump on Thursday said a decision by House Democrats to pursue articles of impeachment against him means that future presidents will routinely face impeachment threats from lawmakers." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2ZM10511OH8WY", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"Everything there is probably easilly verifiable because it\u0027s some declaration from the president Trumb. Unbiased\"}" } },
+      { "workerId": "public.us-east-1.A2NX8I06A12P3I", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Biased. The text states that only Democrats are against Trump and is linking this political party to future parliamentary impeachments.\"}" } }
+    ]
+  }
+]

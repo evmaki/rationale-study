@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "3",
+    "dataObject": { "content": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn’t seen before makes us more human and refines us as moral beings." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A3K54YHTE92QEP", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\" I hope the ones doing the pushing will reconsider.\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"Concepts of Democrats supremacy were at the heart of the defense of slavery\"}" } }
+    ]
+  }
+]

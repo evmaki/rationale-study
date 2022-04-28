@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "9",
+    "dataObject": { "content": "In Australia, record high temperatures and drought exacerbated by the climate crisis have ignited blazes that have killed more than two dozen people and destroyed 2,000 homes since September." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2C3TRGUJV8HRL", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"i thoughts\"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"Unbiased, simply relaying factual information that can be statistically proven.\"}" } }
+    ]
+  }
+]

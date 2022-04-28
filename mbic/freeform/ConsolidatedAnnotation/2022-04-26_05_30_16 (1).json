@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "7",
+    "dataObject": { "content": "For a lazy narcissist like Trump, that must have been a life-altering realization: Hollywood fakery can make even the biggest idiot appear smart and capable. So he has spent the entire presidency, which he thinks of more as a fake TV job than a real one, using photo-ops, pep rallies and other stunts to try to shape an image of himself as sharp and tough, an image that runs totally counter to reality." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2HMEGTAFO0CS8", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"the word is biased  \\\"lazy narcissist like Trump\\\"\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Trump has retained the loyal backing of many voters despite scandal, outrage, and chaos\"}" } }
+    ]
+  }
+]

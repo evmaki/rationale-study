@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "2",
+    "dataObject": { "content": "The man-made Amazon fires are for clearing the land of its forests and indigenous people. The benefits are for Jair Bolsonaro’s cronies, while producing a climate disaster for the world." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A3C6GJCHAWXEAA", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"We should not destroy the natural resources so it is biased\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"The impact of such climate change is going to be far more adverse in tropical and equatorial regions of the world\"}" } }
+    ]
+  }
+]

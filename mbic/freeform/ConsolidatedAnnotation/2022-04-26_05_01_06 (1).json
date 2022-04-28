@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "9",
+    "dataObject": { "content": "Proponents of stricter protections for students argue the DOE’s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2HMEGTAFO0CS8", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"protections for students is very biased \"}" } },
+      { "workerId": "public.us-east-1.A39XAYMFTBZIYV", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"good\"}" } }
+    ]
+  }
+]

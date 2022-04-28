@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "6",
+    "dataObject": { "content": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday — and who received straight-armed Nazi-like salutes in response ..." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A3JLDWGO44AVD2", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"A new generation of nationalists sees a chance to ride Donald Trump\u0027s coattails into the capital. But first they need to do some serious re-branding.so i think it is biased\"}" } },
+      { "workerId": "public.us-east-1.A1MG8KNVSVZ365", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"nothing\"}" } }
+    ]
+  }
+]

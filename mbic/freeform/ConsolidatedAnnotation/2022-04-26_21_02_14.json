@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "5",
+    "dataObject": { "content": "Her proposal brings into sharp focus conservatives’ crusade to legislate control of women’s bodies through restrictive abortion bills and other measures that undermine reproductive rights." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A1V2H0UF94ATWY", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"The statement is somewhat biased in that it implies that convervatives are focused on a crusade to legislate control over women\u0027s bodies.\"}" } },
+      { "workerId": "public.us-east-1.A2ZM10511OH8WY", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"A crusade normally refer to a religious war. Saying here that the conservatives are on a crusade on this topic, without giving much explanation (about why it\u0027s a religious war), is biased.\"}" } }
+    ]
+  }
+]

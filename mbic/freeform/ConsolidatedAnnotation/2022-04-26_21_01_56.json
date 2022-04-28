@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "5",
+    "dataObject": { "content": "But decades of study have shown no link at all, and scientists are becoming increasingly impatient with the refusal to accept their findings." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2FRIVYVIK37V1", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\" increasingly impatient\"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"Stating studies have shown no link is unbiased. Simply providing the information.\"}" } }
+    ]
+  }
+]

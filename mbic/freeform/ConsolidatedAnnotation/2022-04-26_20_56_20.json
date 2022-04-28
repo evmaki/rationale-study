@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "6",
+    "dataObject": { "content": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2CFI1X8OKYIL2", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Using describing words like complex and staggering are opinions and therefore biased, the author also gives no proof.\"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"It is simply a biased opinion. Prioritizing babies over their mothers will change person to person.\"}" } }
+    ]
+  }
+]

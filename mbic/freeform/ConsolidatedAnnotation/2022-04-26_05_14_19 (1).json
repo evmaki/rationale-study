@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "4",
+    "dataObject": { "content": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A3K54YHTE92QEP", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said.\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Internet digital memes are one of the latest revolutions\"}" } }
+    ]
+  }
+]

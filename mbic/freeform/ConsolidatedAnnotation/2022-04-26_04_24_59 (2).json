@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "8",
+    "dataObject": { "content": "President Donald Trump is losing support from his evangelical base as he lurches from one crisis into another. Numerous polls show that religious Americans, like most other Americans, disapprove of the president’s performance, and that could imperil his re-election chances." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2HMEGTAFO0CS8", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"the performance could imperil his re-election chances\"}" } },
+      { "workerId": "public.us-east-1.A1D321NM47DMJ0", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"good\"}" } }
+    ]
+  }
+]

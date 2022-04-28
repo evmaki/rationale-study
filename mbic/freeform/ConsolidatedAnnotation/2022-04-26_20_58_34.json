@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "7",
+    "dataObject": { "content": "Meanwhile, uneven enforcement across the platform means a person or page may be disciplined or banned while a related group continues to operate." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2ZM10511OH8WY", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"Saying that enforcement is not equally distributed across the platform is unbiased because you can put number on that affirmation. It\u0027s not just a feeling from someone, it\u0027s something verifiable.\"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"This isn\u0027t biased, this can be statistically proven. Platforms are data-driven.\"}" } }
+    ]
+  }
+]

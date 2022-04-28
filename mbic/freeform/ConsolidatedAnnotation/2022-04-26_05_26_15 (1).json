@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "5",
+    "dataObject": { "content": "Racist Rep. Steve King (R-Iowa) said generations of people would not be here without rape and incest while making the case for anti-abortion legislation without exceptions for victims of those crimes." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2CFI1X8OKYIL2", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Racism has nothing to do with Steve King’s stancd on abortion.\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"King was defending his anti-abortion legislation,\"}" } }
+    ]
+  }
+]

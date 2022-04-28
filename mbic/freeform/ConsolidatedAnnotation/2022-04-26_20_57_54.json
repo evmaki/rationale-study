@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "3",
+    "dataObject": { "content": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A1FVXS8IM5QYO8", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"I believe it is biased because it has a positive tone when talking about conservatives, describing the probability of rolling back abortion rights in the US as a \\\"huge victory\\\". \"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"The two justices being appointed is factual, rolling back abortion rights is a nuanced topic.\"}" } }
+    ]
+  }
+]

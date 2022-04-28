@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "2",
+    "dataObject": { "content": "At the dawn of the year 2010, few Americans could predict that the coming decade would revolutionize the legal and cultural landscape for lesbian, gay, bisexual, transgender and queer people." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2CFI1X8OKYIL2", "annotationData": { "content": "{\"category\":{\"label\":\"Unbiased\"},\"rationale\":\"The statement does not seem to contain any opinions on whether this is good or bad, and therefore I find it to be an unbiased observation.\"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"I believe this to be biased, it\u0027s an opinion that can\u0027t be easily proven. \"}" } }
+    ]
+  }
+]

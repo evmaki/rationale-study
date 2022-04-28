@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "0",
+    "dataObject": { "content": "When the Muslim ban was first enacted, it triggered chaos at airports and prompted widespread protest and legal challenges, and it continues to impose devastating costs on families and people who wish to come to the U.S." },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2CFI1X8OKYIL2", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"Referring to this travel policy as a \\\"Muslim ban\\\" is in and of itself, biased. It is a policy that prevented people from dangerous countries in the middle east from coming to the United States, regardless of their religion.\"}" } },
+      { "workerId": "public.us-east-1.A2H2DJL45BZBD", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"The first sentence is unbiased, protests can be proven without bias. Imposing devastating costs is a personal opinion.\"}" } }
+    ]
+  }
+]

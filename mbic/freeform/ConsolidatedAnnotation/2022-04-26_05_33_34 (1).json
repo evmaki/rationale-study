@@ -1,0 +1,10 @@
+[
+  {
+    "datasetObjectId": "0",
+    "dataObject": { "content": "This is all great news. It now looks like we have a safe, highly effective vaccine that has the potential to significantly reduce many forms of cancer. So why is it also becoming a key target of many anti-vaxxers?" },
+    "annotations": [
+      { "workerId": "public.us-east-1.A2HMEGTAFO0CS8", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"this is very biased- vaccine that has the potential to significantly reduce many forms of cancer\"}" } },
+      { "workerId": "public.us-east-1.A382SL9ROIY1P6", "annotationData": { "content": "{\"category\":{\"label\":\"Biased\"},\"rationale\":\"This type of vaccine will only work if a person gets the vaccine before they are infected with the virus.\"}" } }
+    ]
+  }
+]
