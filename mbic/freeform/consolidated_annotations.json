@@ -1,1 +1,870 @@
-[{"workerId": "public.us-east-1.A2CFI1X8OKYIL2", "datasetObjectId": "6", "text": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care.", "label": "Biased", "rationale": "Using describing words like complex and staggering are opinions and therefore biased, the author also gives no proof."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "6", "text": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care.", "label": "Biased", "rationale": "It is simply a biased opinion. Prioritizing babies over their mothers will change person to person."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "2", "text": "We speak with Varshini Prakash, founder of the Sunrise Movement, a youth-led climate group that has occupied and lobbied at congressional offices, risking arrest to demand adoption of the Green New Deal and bold climate leadership.", "label": "Biased", "rationale": "Hard to say, I'm leaning towards being biased for the choice of words. Risking arrest to demand, seems to show a bias towards the persons position."}, {"workerId": "public.us-east-1.A1UQPMG1XXP671", "datasetObjectId": "2", "text": "We speak with Varshini Prakash, founder of the Sunrise Movement, a youth-led climate group that has occupied and lobbied at congressional offices, risking arrest to demand adoption of the Green New Deal and bold climate leadership.", "label": "Biased", "rationale": "It will be biased because it's climate group will occupied in biased condition."}, {"workerId": "public.us-east-1.A2HMEGTAFO0CS8", "datasetObjectId": "0", "text": "This is all great news. It now looks like we have a safe, highly effective vaccine that has the potential to significantly reduce many forms of cancer. So why is it also becoming a key target of many anti-vaxxers?", "label": "Biased", "rationale": "this is very biased- vaccine that has the potential to significantly reduce many forms of cancer"}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "0", "text": "This is all great news. It now looks like we have a safe, highly effective vaccine that has the potential to significantly reduce many forms of cancer. So why is it also becoming a key target of many anti-vaxxers?", "label": "Biased", "rationale": "This type of vaccine will only work if a person gets the vaccine before they are infected with the virus."}, {"workerId": "public.us-east-1.A2CFI1X8OKYIL2", "datasetObjectId": "5", "text": "After dozens of mass shootings in recent years, however, including at schools like the February 2018 massacre in Parkland, Florida, that left 17 dead, curbing gun violence has become a component of the Democratic policy platform embraced by congressional and presidential candidates.", "label": "Unbiased", "rationale": "The statement includes the democrats opinions and policies, not the author's, so I would consider it unbiased."}, {"workerId": "public.us-east-1.A1D321NM47DMJ0", "datasetObjectId": "5", "text": "After dozens of mass shootings in recent years, however, including at schools like the February 2018 massacre in Parkland, Florida, that left 17 dead, curbing gun violence has become a component of the Democratic policy platform embraced by congressional and presidential candidates.", "label": "Unbiased", "rationale": "it is unbiased."}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "9", "text": "The man behind a petition drive to recall a California state senator and physician pushing for tougher vaccine requirements was charged on Wednesday with assault after livestreaming himself shoving the lawmaker in a sidewalk confrontation in Sacramento.", "label": "Biased", "rationale": "The man behind a petition drive to recall a California state senator and physician pushing for tougher vaccine requirements"}, {"workerId": "public.us-east-1.A26MRON9XGPVB5", "datasetObjectId": "9", "text": "The man behind a petition drive to recall a California state senator and physician pushing for tougher vaccine requirements was charged on Wednesday with assault after livestreaming himself shoving the lawmaker in a sidewalk confrontation in Sacramento.", "label": "Unbiased", "rationale": "The source is clear and direct. I find the information to be totally factual without any sides being taken or opinions being provided about any particular social group."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "7", "text": "Meanwhile, uneven enforcement across the platform means a person or page may be disciplined or banned while a related group continues to operate.", "label": "Unbiased", "rationale": "Saying that enforcement is not equally distributed across the platform is unbiased because you can put number on that affirmation. It's not just a feeling from someone, it's something verifiable."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "7", "text": "Meanwhile, uneven enforcement across the platform means a person or page may be disciplined or banned while a related group continues to operate.", "label": "Unbiased", "rationale": "This isn't biased, this can be statistically proven. Platforms are data-driven."}, {"workerId": "public.us-east-1.A31JKAMYB4IB7", "datasetObjectId": "9", "text": "Russia President Vladimir Putin joked Wednesday that he is going to interfere in the 2020 presidential elections.", "label": "Unbiased", "rationale": "Because Vladimir Putin likes to enroll himself in 2020 presidential elections."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "9", "text": "Russia President Vladimir Putin joked Wednesday that he is going to interfere in the 2020 presidential elections.", "label": "Biased", "rationale": "The revelation here is kind of big. We need more details about what kind of joke it is. Biased"}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "6", "text": "State-backed hackers from China have targeted staffers working on the U.S. presidential campaign of Democrat Joe Biden, a senior Google security official said on Thursday. The same official said Iranian hackers had recently targeted email accounts belonging to Republican President Donald Trump\u2019s campaign staff.", "label": "Unbiased", "rationale": "The same official said Iranian hackers had recently targeted email accounts belonging to Republican President Donald Trump\u2019s campaign staff."}, {"workerId": "public.us-east-1.A2NX8I06A12P3I", "datasetObjectId": "6", "text": "State-backed hackers from China have targeted staffers working on the U.S. presidential campaign of Democrat Joe Biden, a senior Google security official said on Thursday. The same official said Iranian hackers had recently targeted email accounts belonging to Republican President Donald Trump\u2019s campaign staff.", "label": "Unbiased", "rationale": "It's not biased because it doesn't support a specific side, it just quotes news linked to both political sides."}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "2", "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.", "label": "Biased", "rationale": "\"birtherism\" on its platform during this year\u2019s U.S. presidential election"}, {"workerId": "public.us-east-1.A1FVXS8IM5QYO8", "datasetObjectId": "2", "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.", "label": "Biased", "rationale": "I believe this is biased because it refers to \"birtherism\" as a type of conspiracy theory. "}, {"workerId": "public.us-east-1.A2NX8I06A12P3I", "datasetObjectId": "8", "text": "Things look less promising in the U.S. Last week, the Environmental Protection Agency confirmed that the Trump administration had relaxed enforcement of regulations to help polluting industries deal with the pandemic.", "label": "Biased", "rationale": "It is biased because it negatively cites actions by the Trump administration from the author's point of view, the text has no name source, it only cites that an agency confirmed it, but does not indicate further details of this confirmation."}, {"workerId": "public.us-east-1.A1XH05IKC77OXO", "datasetObjectId": "8", "text": "Things look less promising in the U.S. Last week, the Environmental Protection Agency confirmed that the Trump administration had relaxed enforcement of regulations to help polluting industries deal with the pandemic.", "label": "Unbiased", "rationale": "GOOD"}, {"workerId": "public.us-east-1.A31JKAMYB4IB7", "datasetObjectId": "7", "text": "The National Women\u2019s Hockey League is moving swiftly to expand to Toronto and Montreal after the demise of its Canadian-based rival.", "label": "Biased", "rationale": "The National Women\u2019s Hockey League need to be expanded."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "7", "text": "The National Women\u2019s Hockey League is moving swiftly to expand to Toronto and Montreal after the demise of its Canadian-based rival.", "label": "Unbiased", "rationale": "It's well known by everyone that some city in canada has some healthy rivalry in Hockey. That make this affirmation believable and trustable. Unbiased"}, {"workerId": "public.us-east-1.A2HMEGTAFO0CS8", "datasetObjectId": "7", "text": "For a lazy narcissist like Trump, that must have been a life-altering realization: Hollywood fakery can make even the biggest idiot appear smart and capable. So he has spent the entire presidency, which he thinks of more as a fake TV job than a real one, using photo-ops, pep rallies and other stunts to try to shape an image of himself as sharp and tough, an image that runs totally counter to reality.", "label": "Biased", "rationale": "the word is biased  \"lazy narcissist like Trump\""}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "7", "text": "For a lazy narcissist like Trump, that must have been a life-altering realization: Hollywood fakery can make even the biggest idiot appear smart and capable. So he has spent the entire presidency, which he thinks of more as a fake TV job than a real one, using photo-ops, pep rallies and other stunts to try to shape an image of himself as sharp and tough, an image that runs totally counter to reality.", "label": "Biased", "rationale": "Trump has retained the loyal backing of many voters despite scandal, outrage, and chaos"}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "7", "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.", "label": "Biased", "rationale": "An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists."}, {"workerId": "public.us-east-1.A1D321NM47DMJ0", "datasetObjectId": "7", "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.", "label": "Biased", "rationale": "good"}, {"workerId": "public.us-east-1.A1GWEENWSTM5Z", "datasetObjectId": "7", "text": "The \"OK\" hand gesture is among the 36 new entries added Thursday to a database of hate symbols used by white supremacists and other far-right extremists.", "label": "Biased", "rationale": "Thursday to a database of hate symbols used by white supremacists and other far-right extremists."}, {"workerId": "public.us-east-1.A2NX8I06A12P3I", "datasetObjectId": "7", "text": "The \"OK\" hand gesture is among the 36 new entries added Thursday to a database of hate symbols used by white supremacists and other far-right extremists.", "label": "Biased", "rationale": "It's biased because it cites a political side, in this case the far-right extremists and white supremacists, this can influence the opinion of readers to believe that only these people use this gesture qualified as a \"symbol of hate\""}, {"workerId": "public.us-east-1.A1V2H0UF94ATWY", "datasetObjectId": "5", "text": "Her proposal brings into sharp focus conservatives\u2019 crusade to legislate control of women\u2019s bodies through restrictive abortion bills and other measures that undermine reproductive rights.", "label": "Biased", "rationale": "The statement is somewhat biased in that it implies that convervatives are focused on a crusade to legislate control over women's bodies."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "5", "text": "Her proposal brings into sharp focus conservatives\u2019 crusade to legislate control of women\u2019s bodies through restrictive abortion bills and other measures that undermine reproductive rights.", "label": "Biased", "rationale": "A crusade normally refer to a religious war. Saying here that the conservatives are on a crusade on this topic, without giving much explanation (about why it's a religious war), is biased."}, {"workerId": "public.us-east-1.A2HMEGTAFO0CS8", "datasetObjectId": "9", "text": "Proponents of stricter protections for students argue the DOE\u2019s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans.", "label": "Biased", "rationale": "protections for students is very biased "}, {"workerId": "public.us-east-1.A39XAYMFTBZIYV", "datasetObjectId": "9", "text": "Proponents of stricter protections for students argue the DOE\u2019s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans.", "label": "Biased", "rationale": "good"}, {"workerId": "public.us-east-1.A3C6GJCHAWXEAA", "datasetObjectId": "2", "text": "The man-made Amazon fires are for clearing the land of its forests and indigenous people. The benefits are for Jair Bolsonaro\u2019s cronies, while producing a climate disaster for the world.", "label": "Biased", "rationale": "We should not destroy the natural resources so it is biased"}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "2", "text": "The man-made Amazon fires are for clearing the land of its forests and indigenous people. The benefits are for Jair Bolsonaro\u2019s cronies, while producing a climate disaster for the world.", "label": "Unbiased", "rationale": "The impact of such climate change is going to be far more adverse in tropical and equatorial regions of the world"}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "7", "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.", "label": "Biased", "rationale": "An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists."}, {"workerId": "public.us-east-1.A1D321NM47DMJ0", "datasetObjectId": "7", "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.", "label": "Biased", "rationale": "good"}, {"workerId": "public.us-east-1.AM8ZEA3RDPGSA", "datasetObjectId": "3", "text": "Greta Thunberg, the teenage climate activist from Sweden, the 16-year-old\u2019s steely-eyed courage has helped inspire kids across the country \u2014 and the world \u2014 to join her call to strike from school last week and stand up for more aggressive action to combat the climate crisis.", "label": "Biased", "rationale": "help to the climate crisis."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "3", "text": "Greta Thunberg, the teenage climate activist from Sweden, the 16-year-old\u2019s steely-eyed courage has helped inspire kids across the country \u2014 and the world \u2014 to join her call to strike from school last week and stand up for more aggressive action to combat the climate crisis.", "label": "Biased", "rationale": "Biased, the person who wrote it clearly agrees with the cause. Using terms such as courage, inspiring, shows a personal interest in the movement. "}, {"workerId": "public.us-east-1.A3SWS8OEGIPLO4", "datasetObjectId": "4", "text": "Many Latino voters know from personal and family experience how U.S. foreign policies drive people from their homes. ", "label": "Biased", "rationale": " Statistics provided by the national survey of Latinos conducted in 2018 suggests that policy resulted in many deportations."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "4", "text": "Many Latino voters know from personal and family experience how U.S. foreign policies drive people from their homes. ", "label": "Biased", "rationale": "It shows bias based on blanketing in the Latinos with people getting driven from their homes. An opinion statement without statistics to back up the claim."}, {"workerId": "public.us-east-1.A3K54YHTE92QEP", "datasetObjectId": "3", "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.", "label": "Biased", "rationale": " I hope the ones doing the pushing will reconsider."}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "3", "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.", "label": "Unbiased", "rationale": "Concepts of Democrats supremacy were at the heart of the defense of slavery"}, {"workerId": "public.us-east-1.A2CFI1X8OKYIL2", "datasetObjectId": "5", "text": "Racist Rep. Steve King (R-Iowa) said generations of people would not be here without rape and incest while making the case for anti-abortion legislation without exceptions for victims of those crimes.", "label": "Biased", "rationale": "Racism has nothing to do with Steve King\u2019s stancd on abortion."}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "5", "text": "Racist Rep. Steve King (R-Iowa) said generations of people would not be here without rape and incest while making the case for anti-abortion legislation without exceptions for victims of those crimes.", "label": "Unbiased", "rationale": "King was defending his anti-abortion legislation,"}, {"workerId": "public.us-east-1.A1GWEENWSTM5Z", "datasetObjectId": "5", "text": "The Republican president assumed he was helping the industry at the expense of the environment \u2013 a trade-off Trump was happy to make since he rejects climate science anyway. ", "label": "Unbiased", "rationale": " he rejects climate science anyway. "}, {"workerId": "public.us-east-1.A2TO6N1MTMQD1B", "datasetObjectId": "5", "text": "The Republican president assumed he was helping the industry at the expense of the environment \u2013 a trade-off Trump was happy to make since he rejects climate science anyway. ", "label": "Biased", "rationale": "because of e Republican president assumed he was helping the industry at the expense of the environment \u2013 a trade-off Trump was happy to make since he rejects climate science anyway."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "1", "text": "Before the shooting death of women's rights activist and artist Isabel Cabanillas de la Torre in Ciudad Juarez, Mexico, human rights attorneys and others already had noted several years of rising femicides in the border city.", "label": "Unbiased", "rationale": "It stated an event that occurred followed by information about a given topic. It didn't appear to make a stance."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "1", "text": "Before the shooting death of women's rights activist and artist Isabel Cabanillas de la Torre in Ciudad Juarez, Mexico, human rights attorneys and others already had noted several years of rising femicides in the border city.", "label": "Unbiased", "rationale": "Everything in this is verifiable with numbers. You need to trust the human rights attorneys (or other) about this statement, but it's probably really easy to verify."}, {"workerId": "public.us-east-1.A3I3IFFQW3CB1P", "datasetObjectId": "8", "text": "Trump signed a GOP tax bill in 2017 that cut taxes for the middle class but delivered a larger tax break for the wealthiest Americans.", "label": "Biased", "rationale": "He wouldn't raise taxes by a penny on anyone making less than $400,000. In contrast, Congressional Republicans would continue the big handouts"}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "8", "text": "Trump signed a GOP tax bill in 2017 that cut taxes for the middle class but delivered a larger tax break for the wealthiest Americans.", "label": "Biased", "rationale": "I believe it to show some bias, the bill has a lot more technicalities than simply giving the wealthiest of Americans a clear tax break."}, {"workerId": "public.us-east-1.A1OXYF7SCAFA1", "datasetObjectId": "1", "text": "Peace and justice advocates are praising a letter from a dozen House Democrats urging further military aid to Israel be conditioned on the state not annexing larger swaths of the occupied West Bank and calling on Congress to ensure the human rights of the Palestinian people be respected.", "label": "Unbiased", "rationale": "praising a letter from a dozen House Democrats urging further military"}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "1", "text": "Peace and justice advocates are praising a letter from a dozen House Democrats urging further military aid to Israel be conditioned on the state not annexing larger swaths of the occupied West Bank and calling on Congress to ensure the human rights of the Palestinian people be respected.", "label": "Biased", "rationale": "Palestinian people had the right to an independent, free and sovereign State"}, {"workerId": "public.us-east-1.A1FVXS8IM5QYO8", "datasetObjectId": "2", "text": "Two years after the Trump administration made the state-sanctioned kidnapping of children at the border official U.S. policy, the horrors around this crime against humanity continue to be exposed.", "label": "Biased", "rationale": "I believe that is biased because it calls the US border policy (regarding children crossing the border and being separated from their parents) as 'state-sanctioned kidnapping' and a crime against humanity."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "2", "text": "Two years after the Trump administration made the state-sanctioned kidnapping of children at the border official U.S. policy, the horrors around this crime against humanity continue to be exposed.", "label": "Biased", "rationale": "Clear bias. Calling something state-sanctioned kidnapping of children is completely driven by personal emotions and beliefs."}, {"workerId": "public.us-east-1.A3JLDWGO44AVD2", "datasetObjectId": "6", "text": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday \u2014 and who received straight-armed Nazi-like salutes in response ...", "label": "Biased", "rationale": "A new generation of nationalists sees a chance to ride Donald Trump's coattails into the capital. But first they need to do some serious re-branding.so i think it is biased"}, {"workerId": "public.us-east-1.A1MG8KNVSVZ365", "datasetObjectId": "6", "text": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday \u2014 and who received straight-armed Nazi-like salutes in response ...", "label": "Biased", "rationale": "nothing"}, {"workerId": "public.us-east-1.A19TD2J8506A4Y", "datasetObjectId": "0", "text": "The beauty routine for prominent women who work and live under the eye of a camera can include not just haircuts, but hair color, highlights, lowlights, Keratin treatments, blowouts, braids, manicures, pedicures, facials, eyebrow waxes, eyelash extensions.", "label": "Biased", "rationale": "It would exclude people without the correct type of hair and certain facial features. People unable to go through keratin treatments for health reasons may be excluded."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "0", "text": "The beauty routine for prominent women who work and live under the eye of a camera can include not just haircuts, but hair color, highlights, lowlights, Keratin treatments, blowouts, braids, manicures, pedicures, facials, eyebrow waxes, eyelash extensions.", "label": "Unbiased", "rationale": "That simply a factual statement, all those treatments are available and used by women across many occupations. "}, {"workerId": "public.us-east-1.A2CFI1X8OKYIL2", "datasetObjectId": "2", "text": "At the dawn of the year 2010, few Americans could predict that the coming decade would revolutionize the legal and cultural landscape for lesbian, gay, bisexual, transgender and queer people.", "label": "Unbiased", "rationale": "The statement does not seem to contain any opinions on whether this is good or bad, and therefore I find it to be an unbiased observation."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "2", "text": "At the dawn of the year 2010, few Americans could predict that the coming decade would revolutionize the legal and cultural landscape for lesbian, gay, bisexual, transgender and queer people.", "label": "Biased", "rationale": "I believe this to be biased, it's an opinion that can't be easily proven. "}, {"workerId": "public.us-east-1.A2CFI1X8OKYIL2", "datasetObjectId": "0", "text": "When the Muslim ban was first enacted, it triggered chaos at airports and prompted widespread protest and legal challenges, and it continues to impose devastating costs on families and people who wish to come to the U.S.", "label": "Biased", "rationale": "Referring to this travel policy as a \"Muslim ban\" is in and of itself, biased. It is a policy that prevented people from dangerous countries in the middle east from coming to the United States, regardless of their religion."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "0", "text": "When the Muslim ban was first enacted, it triggered chaos at airports and prompted widespread protest and legal challenges, and it continues to impose devastating costs on families and people who wish to come to the U.S.", "label": "Biased", "rationale": "The first sentence is unbiased, protests can be proven without bias. Imposing devastating costs is a personal opinion."}, {"workerId": "public.us-east-1.A3I3IFFQW3CB1P", "datasetObjectId": "7", "text": "Right-wing media sprung into action to try to discredit her, of course, by implying that a woman who graduated summa cum laude with an economics degree is a bimbo and with  Twitchy using a screenshot to make the usually genial Ocasio-Cortez somehow look like a ballbuster.", "label": "Biased", "rationale": "implying that a woman who graduated summa cum laude with an economics degree is a bimbo and with Twitchy using a screenshot "}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "7", "text": "Right-wing media sprung into action to try to discredit her, of course, by implying that a woman who graduated summa cum laude with an economics degree is a bimbo and with  Twitchy using a screenshot to make the usually genial Ocasio-Cortez somehow look like a ballbuster.", "label": "Biased", "rationale": "Clearly a biased statement. Simply defaming a group based off personal beliefs."}, {"workerId": "public.us-east-1.A2C3TRGUJV8HRL", "datasetObjectId": "9", "text": "In Australia, record high temperatures and drought exacerbated by the climate crisis have ignited blazes that have killed more than two dozen people and destroyed 2,000 homes since September.", "label": "Biased", "rationale": "i thoughts"}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "9", "text": "In Australia, record high temperatures and drought exacerbated by the climate crisis have ignited blazes that have killed more than two dozen people and destroyed 2,000 homes since September.", "label": "Unbiased", "rationale": "Unbiased, simply relaying factual information that can be statistically proven."}, {"workerId": "public.us-east-1.A3D1QQ8BEO75C6", "datasetObjectId": "6", "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.", "label": "Biased", "rationale": "i thought this passage is wright and best one"}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "6", "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.", "label": "Unbiased", "rationale": "To say that to battle is complicated by vocal anti-vaccination movement seems trustable and belivable. Unbiased."}, {"workerId": "public.us-east-1.A1GWEENWSTM5Z", "datasetObjectId": "0", "text": "Five of eight gun control bills endorsed by Democratic Gov. Ralph Northam have been approved in both houses of the General Assembly\u00a0and will head\u00a0to\u00a0Northam for signature.\u00a0", "label": "Biased", "rationale": "Ralph Northam have been approved in both houses of the General Assembly and will head to Northam for signature. "}, {"workerId": "public.us-east-1.A2TO6N1MTMQD1B", "datasetObjectId": "0", "text": "Five of eight gun control bills endorsed by Democratic Gov. Ralph Northam have been approved in both houses of the General Assembly\u00a0and will head\u00a0to\u00a0Northam for signature.\u00a0", "label": "Biased", "rationale": "because of  Five of eight gun control bills endorsed by Democratic Gov. Ralph Northam have been approved in both houses of the General Assembly and will head to Northam for signature. "}, {"workerId": "public.us-east-1.A1FVXS8IM5QYO8", "datasetObjectId": "1", "text": "That\u2019s why a new proposal from a bevy of progressive lawmakers comes as a welcome and innovative addition to the policy arsenal: increasing the corporate tax rate in accordance with the gap between CEO pay and median worker pay.", "label": "Biased", "rationale": "I believe it is somewhat biased because it describes the proposal to increase the corporate tax as a 'welcome and innovative addition'. Not everyone would agree with this, so it shows bias."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "1", "text": "That\u2019s why a new proposal from a bevy of progressive lawmakers comes as a welcome and innovative addition to the policy arsenal: increasing the corporate tax rate in accordance with the gap between CEO pay and median worker pay.", "label": "Biased", "rationale": "Personal opinion. Using the terms welcomed and innovative shows a clear bias."}, {"workerId": "public.us-east-1.A31JKAMYB4IB7", "datasetObjectId": "4", "text": "Other European countries have also said they will strip dual nationals who joined Islamic State of citizenship.", "label": "Biased", "rationale": "Because  European countries taught in their way."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "4", "text": "Other European countries have also said they will strip dual nationals who joined Islamic State of citizenship.", "label": "Unbiased", "rationale": "Those politicians revelations on this topic is probably very easy the verify on the web. Unbiased"}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "3", "text": "David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.\"", "label": "Biased", "rationale": "cited the coronavirus pandemic in telling Parscale"}, {"workerId": "public.us-east-1.A2TO6N1MTMQD1B", "datasetObjectId": "3", "text": "David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.\"", "label": "Unbiased", "rationale": "because of David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.\""}, {"workerId": "public.us-east-1.A1FVXS8IM5QYO8", "datasetObjectId": "2", "text": "The idea of imposing a wealth tax on the richest Americans has elicited sharply divergent views across a spectrum of politicians, with President Donald Trump branding it socialist and progressive Democratic presidential contenders Senators Elizabeth Warren and Bernie Sanders prominently endorsing it.", "label": "Unbiased", "rationale": "This is unbiased because it states two opposing views of the idea of imposing a wealth tax on the richest Americans, from both the right and the left. "}, {"workerId": "public.us-east-1.A2TO6N1MTMQD1B", "datasetObjectId": "2", "text": "The idea of imposing a wealth tax on the richest Americans has elicited sharply divergent views across a spectrum of politicians, with President Donald Trump branding it socialist and progressive Democratic presidential contenders Senators Elizabeth Warren and Bernie Sanders prominently endorsing it.", "label": "Biased", "rationale": "because of    The idea of imposing a wealth tax on the richest Americans has elicited sharply divergent views across a spectrum of politicians, with President Donald Trump branding it socialist and progressive Democratic presidential contenders Senators Elizabeth Warren and Bernie Sanders prominently endorsing it."}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "8", "text": "U.S. President Donald Trump on Thursday said a decision by House Democrats to pursue articles of impeachment against him means that future presidents will routinely face impeachment threats from lawmakers.", "label": "Unbiased", "rationale": "Everything there is probably easilly verifiable because it's some declaration from the president Trumb. Unbiased"}, {"workerId": "public.us-east-1.A2NX8I06A12P3I", "datasetObjectId": "8", "text": "U.S. President Donald Trump on Thursday said a decision by House Democrats to pursue articles of impeachment against him means that future presidents will routinely face impeachment threats from lawmakers.", "label": "Biased", "rationale": "Biased. The text states that only Democrats are against Trump and is linking this political party to future parliamentary impeachments."}, {"workerId": "public.us-east-1.A1GWEENWSTM5Z", "datasetObjectId": "5", "text": "The institute attributes the growth to billionaires\u2019 use of tax cuts, tax exemptions and offshore tax havens.", "label": "Biased", "rationale": "        The institute attributes the growth to billionaires\u2019 use of tax cuts, tax exemptions and offshore tax havens."}, {"workerId": "public.us-east-1.A3I3IFFQW3CB1P", "datasetObjectId": "5", "text": "The institute attributes the growth to billionaires\u2019 use of tax cuts, tax exemptions and offshore tax havens.", "label": "Biased", "rationale": "The federal government loses both individual and corporate income tax revenue from the shifting of profits and income into low-tax countries."}, {"workerId": "public.us-east-1.A3I3IFFQW3CB1P", "datasetObjectId": "1", "text": "A Gallup poll reports that women are still more likely to do laundry, clean the house, do grocery shopping, prepare meals, wash dishes and make decisions about furniture and decorations \u2013 even among younger generations who are reportedly more egalitarian as ever.", "label": "Biased", "rationale": "Although women in both types of households are still more likely to be responsible for laundry, meal preparation, dishwashing and cleaning"}, {"workerId": "public.us-east-1.A1GWEENWSTM5Z", "datasetObjectId": "1", "text": "A Gallup poll reports that women are still more likely to do laundry, clean the house, do grocery shopping, prepare meals, wash dishes and make decisions about furniture and decorations \u2013 even among younger generations who are reportedly more egalitarian as ever.", "label": "Biased", "rationale": "A Gallup poll reports that women are still more likely to do laundry, clean the house,"}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "5", "text": "But decades of study have shown no link at all, and scientists are becoming increasingly impatient with the refusal to accept their findings.", "label": "Biased", "rationale": " increasingly impatient"}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "5", "text": "But decades of study have shown no link at all, and scientists are becoming increasingly impatient with the refusal to accept their findings.", "label": "Unbiased", "rationale": "Stating studies have shown no link is unbiased. Simply providing the information."}, {"workerId": "public.us-east-1.A3K54YHTE92QEP", "datasetObjectId": "3", "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.", "label": "Biased", "rationale": " I hope the ones doing the pushing will reconsider."}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "3", "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.", "label": "Unbiased", "rationale": "Concepts of Democrats supremacy were at the heart of the defense of slavery"}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "6", "text": "Since Roe v. Wade, when the Supreme Court recognized the constitutional right to an abortion, state lawmakers have devised novel ways to cut off access to the procedure without banning it outright. One strategy is to require clinics and doctors to comply with an ever-expanding list of regulations, with the goal of essentially red-taping providers out of business.", "label": "Biased", "rationale": "Assigning the goal of red-taping providers out of business is showing a personal bias of the situation."}, {"workerId": "public.us-east-1.A1UQPMG1XXP671", "datasetObjectId": "6", "text": "Since Roe v. Wade, when the Supreme Court recognized the constitutional right to an abortion, state lawmakers have devised novel ways to cut off access to the procedure without banning it outright. One strategy is to require clinics and doctors to comply with an ever-expanding list of regulations, with the goal of essentially red-taping providers out of business.", "label": "Biased", "rationale": "It will be biased because abortion is very bad condition."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "0", "text": "For one thing, Trump\u2019s impatience now threatens to undo the measures of the last ten weeks. Thanks in part to the foment of anti-lockdown protesters tacitly endorsed by Trump, governors are under increasing political pressure to reopen quickly\u2014perhaps too soon.", "label": "Biased", "rationale": "Shows a clear bias. Uses personal beliefs in the statement."}, {"workerId": "public.us-east-1.A26MRON9XGPVB5", "datasetObjectId": "0", "text": "For one thing, Trump\u2019s impatience now threatens to undo the measures of the last ten weeks. Thanks in part to the foment of anti-lockdown protesters tacitly endorsed by Trump, governors are under increasing political pressure to reopen quickly\u2014perhaps too soon.", "label": "Biased", "rationale": "The way the words are strung together make it sound like someone is out to get someone. This doesn't sound at all like a fact, but rather an opinion."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "9", "text": "Nearly 60 percent of Americans now support the marginal tax rate program Ocasio-Cortez has proposed uncluding a remarkable 45 percent of Republicans, despite all the work right-wing media has done to demonize Ocasio-Cortez and anything related to her.", "label": "Biased", "rationale": "The first half is unbiased. Then the statement claims right wing media demonized the person, while the statement is demonizing the group themselves. Clearly a personal interest is involved, biased."}, {"workerId": "public.us-east-1.A26MRON9XGPVB5", "datasetObjectId": "9", "text": "Nearly 60 percent of Americans now support the marginal tax rate program Ocasio-Cortez has proposed uncluding a remarkable 45 percent of Republicans, despite all the work right-wing media has done to demonize Ocasio-Cortez and anything related to her.", "label": "Biased", "rationale": "The phrasing is extremely biased because I cannot see how demonizing can be considered any sort of impartial process."}, {"workerId": "public.us-east-1.AM8ZEA3RDPGSA", "datasetObjectId": "4", "text": "U.S. immigration officials on Monday deported an Iranian student headed to a Boston university despite efforts by the American Civil Liberties Union and other advocates to block the removal.", "label": "Biased", "rationale": "Civil Liberties Union and other advocates to block the removal.       "}, {"workerId": "public.us-east-1.A1XH05IKC77OXO", "datasetObjectId": "4", "text": "U.S. immigration officials on Monday deported an Iranian student headed to a Boston university despite efforts by the American Civil Liberties Union and other advocates to block the removal.", "label": "Biased", "rationale": "   U.S. immigration officials on Monday deported an Iranian student headed to a Boston university "}, {"workerId": "public.us-east-1.A2FRIVYVIK37V1", "datasetObjectId": "1", "text": "James Steckelberg of the Mayo Clinic said people 65 and over should be administered high-dose flu vaccines to stimulate their immune system. ", "label": "Biased", "rationale": "Mayo Clinic said people 65 and over should be administered"}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "1", "text": "James Steckelberg of the Mayo Clinic said people 65 and over should be administered high-dose flu vaccines to stimulate their immune system. ", "label": "Unbiased", "rationale": "Everything here seems credible because he's working at some clinic. The text don't stretch the reality. Unbiased."}, {"workerId": "public.us-east-1.A2IC4IMH7G9UKU", "datasetObjectId": "0", "text": "Strava, which tracks the sports activity trends of some 50 million people in almost 200 countries, surveyed 25,000 runners and found that half of them say they either hate it or barely tolerate it, while only 8% love it.", "label": "Unbiased", "rationale": "This article is just stating facts about how much a sport is liked by other people."}, {"workerId": "public.us-east-1.A1GWEENWSTM5Z", "datasetObjectId": "0", "text": "Strava, which tracks the sports activity trends of some 50 million people in almost 200 countries, surveyed 25,000 runners and found that half of them say they either hate it or barely tolerate it, while only 8% love it.", "label": "Biased", "rationale": "surveyed 25,000 runners and found that half of them say they either hate it or barely tolerate it, while only 8% love it."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "8", "text": "The Sandy Hook tragedy rocked the United States when a 20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself.", "label": "Unbiased", "rationale": "It is simply providing the factual information on the events"}, {"workerId": "public.us-east-1.A2TO6N1MTMQD1B", "datasetObjectId": "8", "text": "The Sandy Hook tragedy rocked the United States when a 20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself.", "label": "Unbiased", "rationale": "because of  20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself. he treated equally."}, {"workerId": "public.us-east-1.A1FVXS8IM5QYO8", "datasetObjectId": "3", "text": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States.", "label": "Biased", "rationale": "I believe it is biased because it has a positive tone when talking about conservatives, describing the probability of rolling back abortion rights in the US as a \"huge victory\". "}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "3", "text": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States.", "label": "Biased", "rationale": "The two justices being appointed is factual, rolling back abortion rights is a nuanced topic."}, {"workerId": "public.us-east-1.A3I3IFFQW3CB1P", "datasetObjectId": "8", "text": "Amid pressure from Washington, Mexico is backpedaling on promises of better treatment for Central American migrants, leaving hundreds stranded in unsanitary camps near its southern border and allegations of irregular detentions.", "label": "Biased", "rationale": "The United States is seeing a rise in apprehensions of unaccompanied migrant children, most from Central America, along its southern border"}, {"workerId": "public.us-east-1.AV4IKB8X15OCF", "datasetObjectId": "8", "text": "Amid pressure from Washington, Mexico is backpedaling on promises of better treatment for Central American migrants, leaving hundreds stranded in unsanitary camps near its southern border and allegations of irregular detentions.", "label": "Biased", "rationale": "Because Migrant camps overflow as mexico cracks down after Trump threats."}, {"workerId": "public.us-east-1.AV4IKB8X15OCF", "datasetObjectId": "3", "text": "Many Democratic voters have said they believe that sexism does makes it harder for women to win than for men.", "label": "Biased", "rationale": "Many of those who say it is important for men and women to have equal rights point to aspects of the workplace when asked about gender equality."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "3", "text": "Many Democratic voters have said they believe that sexism does makes it harder for women to win than for men.", "label": "Unbiased", "rationale": "Unbiased, I believe that statement could be applied to any person, group or organization."}, {"workerId": "public.us-east-1.A2HMEGTAFO0CS8", "datasetObjectId": "8", "text": "President Donald Trump is losing support from his evangelical base as he lurches from one crisis into another. Numerous polls show that religious Americans, like most other Americans, disapprove of the president\u2019s performance, and that could imperil his re-election chances.", "label": "Biased", "rationale": "the performance could imperil his re-election chances"}, {"workerId": "public.us-east-1.A1D321NM47DMJ0", "datasetObjectId": "8", "text": "President Donald Trump is losing support from his evangelical base as he lurches from one crisis into another. Numerous polls show that religious Americans, like most other Americans, disapprove of the president\u2019s performance, and that could imperil his re-election chances.", "label": "Biased", "rationale": "good"}, {"workerId": "public.us-east-1.A2YB74HPG0M1F8", "datasetObjectId": "9", "text": "Despite saving millions upon millions of lives, vaccines have been meet with skepticism by a small but growing faction of conspiracy theorists. And Donald Trump, \"human megaphone that is the president of the United States,\" has only made matters worse by supporting an \"alternative vaccine schedule.\"", "label": "Biased", "rationale": "i thought this passage"}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "9", "text": "Despite saving millions upon millions of lives, vaccines have been meet with skepticism by a small but growing faction of conspiracy theorists. And Donald Trump, \"human megaphone that is the president of the United States,\" has only made matters worse by supporting an \"alternative vaccine schedule.\"", "label": "Biased", "rationale": "Even if almost everybody would agree about the expression \"human megaphone\" refering to Donald Trump. It's unnecerray there to make the point. Everything else in the text is somewhat verifiable with numbers. Using this expression there is biased."}, {"workerId": "public.us-east-1.A1V2H0UF94ATWY", "datasetObjectId": "4", "text": "In Washington, three key issues seemed to galvanize most of the protesters: climate change, immigration and reproductive rights.", "label": "Unbiased", "rationale": "It is unbiased because it uses the phrase \"seemed to.\""}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "4", "text": "In Washington, three key issues seemed to galvanize most of the protesters: climate change, immigration and reproductive rights.", "label": "Unbiased", "rationale": "By viewing the amount of protesters once could rank the most occupied or talked about issues."}, {"workerId": "public.us-east-1.A2YB74HPG0M1F8", "datasetObjectId": "4", "text": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity, Sanders could instead have turned to an array of \"progressive prosecutors.\"", "label": "Biased", "rationale": "i thought is passage must wright one"}, {"workerId": "public.us-east-1.A1XH05IKC77OXO", "datasetObjectId": "4", "text": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity, Sanders could instead have turned to an array of \"progressive prosecutors.\"", "label": "Biased", "rationale": " If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity"}, {"workerId": "public.us-east-1.AV4IKB8X15OCF", "datasetObjectId": "6", "text": "That the Secret Service takes precautions to protect the president in a time of chaos is, in itself, to be expected. But the contrast between Trump\u2019s chest-thumping and the fact that he was cowering in the basement was objectively funny.  Unsurprisingly, a lot of people made fun of him, and he didn\u2019t like it.", "label": "Unbiased", "rationale": "Now Trump wants to edit real life like on episode."}, {"workerId": "public.us-east-1.A2H2DJL45BZBD", "datasetObjectId": "6", "text": "That the Secret Service takes precautions to protect the president in a time of chaos is, in itself, to be expected. But the contrast between Trump\u2019s chest-thumping and the fact that he was cowering in the basement was objectively funny.  Unsurprisingly, a lot of people made fun of him, and he didn\u2019t like it.", "label": "Biased", "rationale": "I'm not sure what to say here. It is clearly someone who dislikes President Trump. Chest-thumping, cowering, are personal insults. Clear bias."}, {"workerId": "public.us-east-1.A3K54YHTE92QEP", "datasetObjectId": "4", "text": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said.", "label": "Biased", "rationale": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said."}, {"workerId": "public.us-east-1.A382SL9ROIY1P6", "datasetObjectId": "4", "text": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said.", "label": "Biased", "rationale": "Internet digital memes are one of the latest revolutions"}, {"workerId": "public.us-east-1.A2W0G89O7E9EFO", "datasetObjectId": "1", "text": "Bernie Sanders, meanwhile, sees early voting as a way to boost turnout among core constituencies like young, minority and working-class voters. Early voting opens new opportunities for people with strict work schedules or other barriers to voting to find time to cast ballots beyond the typical Election Day, spokeswoman Sarah Ford said.", "label": "Biased", "rationale": "Although there are two people quoted, both quotes are in support of early voting.  The author appears supportive of a particular issue and has so far only provided one side of the issue, which is in favor of early voting.  "}, {"workerId": "public.us-east-1.AM8ZEA3RDPGSA", "datasetObjectId": "1", "text": "Bernie Sanders, meanwhile, sees early voting as a way to boost turnout among core constituencies like young, minority and working-class voters. Early voting opens new opportunities for people with strict work schedules or other barriers to voting to find time to cast ballots beyond the typical Election Day, spokeswoman Sarah Ford said.", "label": "Unbiased", "rationale": " spokeswoman Sarah Ford said.       "}, {"workerId": "public.us-east-1.AM8ZEA3RDPGSA", "datasetObjectId": "3", "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.", "label": "Unbiased", "rationale": "Bloomberg LP, fostered a hostile environment for female employees.       "}, {"workerId": "public.us-east-1.A2ZM10511OH8WY", "datasetObjectId": "3", "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.", "label": "Unbiased", "rationale": "Saying that Bloomberg fostered some hostile environnement for female employees is highly belivable considering the allegations. Unbiased"}]
+[
+    {
+        "workerId": "public.us-east-1.A2CFI1X8OKYIL2",
+        "datasetObjectId": "6",
+        "text": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care.",
+        "label": "Biased",
+        "rationale": "Using describing words like complex and staggering are opinions and therefore biased, the author also gives no proof."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "6",
+        "text": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care.",
+        "label": "Biased",
+        "rationale": "It is simply a biased opinion. Prioritizing babies over their mothers will change person to person."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "2",
+        "text": "We speak with Varshini Prakash, founder of the Sunrise Movement, a youth-led climate group that has occupied and lobbied at congressional offices, risking arrest to demand adoption of the Green New Deal and bold climate leadership.",
+        "label": "Biased",
+        "rationale": "Hard to say, I'm leaning towards being biased for the choice of words. Risking arrest to demand, seems to show a bias towards the persons position."
+    },
+    {
+        "workerId": "public.us-east-1.A1UQPMG1XXP671",
+        "datasetObjectId": "2",
+        "text": "We speak with Varshini Prakash, founder of the Sunrise Movement, a youth-led climate group that has occupied and lobbied at congressional offices, risking arrest to demand adoption of the Green New Deal and bold climate leadership.",
+        "label": "Biased",
+        "rationale": "It will be biased because it's climate group will occupied in biased condition."
+    },
+    {
+        "workerId": "public.us-east-1.A2HMEGTAFO0CS8",
+        "datasetObjectId": "0",
+        "text": "This is all great news. It now looks like we have a safe, highly effective vaccine that has the potential to significantly reduce many forms of cancer. So why is it also becoming a key target of many anti-vaxxers?",
+        "label": "Biased",
+        "rationale": "this is very biased- vaccine that has the potential to significantly reduce many forms of cancer"
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "0",
+        "text": "This is all great news. It now looks like we have a safe, highly effective vaccine that has the potential to significantly reduce many forms of cancer. So why is it also becoming a key target of many anti-vaxxers?",
+        "label": "Biased",
+        "rationale": "This type of vaccine will only work if a person gets the vaccine before they are infected with the virus."
+    },
+    {
+        "workerId": "public.us-east-1.A2CFI1X8OKYIL2",
+        "datasetObjectId": "5",
+        "text": "After dozens of mass shootings in recent years, however, including at schools like the February 2018 massacre in Parkland, Florida, that left 17 dead, curbing gun violence has become a component of the Democratic policy platform embraced by congressional and presidential candidates.",
+        "label": "Unbiased",
+        "rationale": "The statement includes the democrats opinions and policies, not the author's, so I would consider it unbiased."
+    },
+    {
+        "workerId": "public.us-east-1.A1D321NM47DMJ0",
+        "datasetObjectId": "5",
+        "text": "After dozens of mass shootings in recent years, however, including at schools like the February 2018 massacre in Parkland, Florida, that left 17 dead, curbing gun violence has become a component of the Democratic policy platform embraced by congressional and presidential candidates.",
+        "label": "Unbiased",
+        "rationale": "it is unbiased."
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "9",
+        "text": "The man behind a petition drive to recall a California state senator and physician pushing for tougher vaccine requirements was charged on Wednesday with assault after livestreaming himself shoving the lawmaker in a sidewalk confrontation in Sacramento.",
+        "label": "Biased",
+        "rationale": "The man behind a petition drive to recall a California state senator and physician pushing for tougher vaccine requirements"
+    },
+    {
+        "workerId": "public.us-east-1.A26MRON9XGPVB5",
+        "datasetObjectId": "9",
+        "text": "The man behind a petition drive to recall a California state senator and physician pushing for tougher vaccine requirements was charged on Wednesday with assault after livestreaming himself shoving the lawmaker in a sidewalk confrontation in Sacramento.",
+        "label": "Unbiased",
+        "rationale": "The source is clear and direct. I find the information to be totally factual without any sides being taken or opinions being provided about any particular social group."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "7",
+        "text": "Meanwhile, uneven enforcement across the platform means a person or page may be disciplined or banned while a related group continues to operate.",
+        "label": "Unbiased",
+        "rationale": "Saying that enforcement is not equally distributed across the platform is unbiased because you can put number on that affirmation. It's not just a feeling from someone, it's something verifiable."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "7",
+        "text": "Meanwhile, uneven enforcement across the platform means a person or page may be disciplined or banned while a related group continues to operate.",
+        "label": "Unbiased",
+        "rationale": "This isn't biased, this can be statistically proven. Platforms are data-driven."
+    },
+    {
+        "workerId": "public.us-east-1.A31JKAMYB4IB7",
+        "datasetObjectId": "9",
+        "text": "Russia President Vladimir Putin joked Wednesday that he is going to interfere in the 2020 presidential elections.",
+        "label": "Unbiased",
+        "rationale": "Because Vladimir Putin likes to enroll himself in 2020 presidential elections."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "9",
+        "text": "Russia President Vladimir Putin joked Wednesday that he is going to interfere in the 2020 presidential elections.",
+        "label": "Biased",
+        "rationale": "The revelation here is kind of big. We need more details about what kind of joke it is. Biased"
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "6",
+        "text": "State-backed hackers from China have targeted staffers working on the U.S. presidential campaign of Democrat Joe Biden, a senior Google security official said on Thursday. The same official said Iranian hackers had recently targeted email accounts belonging to Republican President Donald Trump\u2019s campaign staff.",
+        "label": "Unbiased",
+        "rationale": "The same official said Iranian hackers had recently targeted email accounts belonging to Republican President Donald Trump\u2019s campaign staff."
+    },
+    {
+        "workerId": "public.us-east-1.A2NX8I06A12P3I",
+        "datasetObjectId": "6",
+        "text": "State-backed hackers from China have targeted staffers working on the U.S. presidential campaign of Democrat Joe Biden, a senior Google security official said on Thursday. The same official said Iranian hackers had recently targeted email accounts belonging to Republican President Donald Trump\u2019s campaign staff.",
+        "label": "Unbiased",
+        "rationale": "It's not biased because it doesn't support a specific side, it just quotes news linked to both political sides."
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "2",
+        "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.",
+        "label": "Biased",
+        "rationale": "\"birtherism\" on its platform during this year\u2019s U.S. presidential election"
+    },
+    {
+        "workerId": "public.us-east-1.A1FVXS8IM5QYO8",
+        "datasetObjectId": "2",
+        "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.",
+        "label": "Biased",
+        "rationale": "I believe this is biased because it refers to \"birtherism\" as a type of conspiracy theory. "
+    },
+    {
+        "workerId": "public.us-east-1.A2NX8I06A12P3I",
+        "datasetObjectId": "8",
+        "text": "Things look less promising in the U.S. Last week, the Environmental Protection Agency confirmed that the Trump administration had relaxed enforcement of regulations to help polluting industries deal with the pandemic.",
+        "label": "Biased",
+        "rationale": "It is biased because it negatively cites actions by the Trump administration from the author's point of view, the text has no name source, it only cites that an agency confirmed it, but does not indicate further details of this confirmation."
+    },
+    {
+        "workerId": "public.us-east-1.A1XH05IKC77OXO",
+        "datasetObjectId": "8",
+        "text": "Things look less promising in the U.S. Last week, the Environmental Protection Agency confirmed that the Trump administration had relaxed enforcement of regulations to help polluting industries deal with the pandemic.",
+        "label": "Unbiased",
+        "rationale": "GOOD"
+    },
+    {
+        "workerId": "public.us-east-1.A31JKAMYB4IB7",
+        "datasetObjectId": "7",
+        "text": "The National Women\u2019s Hockey League is moving swiftly to expand to Toronto and Montreal after the demise of its Canadian-based rival.",
+        "label": "Biased",
+        "rationale": "The National Women\u2019s Hockey League need to be expanded."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "7",
+        "text": "The National Women\u2019s Hockey League is moving swiftly to expand to Toronto and Montreal after the demise of its Canadian-based rival.",
+        "label": "Unbiased",
+        "rationale": "It's well known by everyone that some city in canada has some healthy rivalry in Hockey. That make this affirmation believable and trustable. Unbiased"
+    },
+    {
+        "workerId": "public.us-east-1.A2HMEGTAFO0CS8",
+        "datasetObjectId": "7",
+        "text": "For a lazy narcissist like Trump, that must have been a life-altering realization: Hollywood fakery can make even the biggest idiot appear smart and capable. So he has spent the entire presidency, which he thinks of more as a fake TV job than a real one, using photo-ops, pep rallies and other stunts to try to shape an image of himself as sharp and tough, an image that runs totally counter to reality.",
+        "label": "Biased",
+        "rationale": "the word is biased  \"lazy narcissist like Trump\""
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "7",
+        "text": "For a lazy narcissist like Trump, that must have been a life-altering realization: Hollywood fakery can make even the biggest idiot appear smart and capable. So he has spent the entire presidency, which he thinks of more as a fake TV job than a real one, using photo-ops, pep rallies and other stunts to try to shape an image of himself as sharp and tough, an image that runs totally counter to reality.",
+        "label": "Biased",
+        "rationale": "Trump has retained the loyal backing of many voters despite scandal, outrage, and chaos"
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "7",
+        "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.",
+        "label": "Biased",
+        "rationale": "An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists."
+    },
+    {
+        "workerId": "public.us-east-1.A1D321NM47DMJ0",
+        "datasetObjectId": "7",
+        "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.",
+        "label": "Biased",
+        "rationale": "good"
+    },
+    {
+        "workerId": "public.us-east-1.A1GWEENWSTM5Z",
+        "datasetObjectId": "7",
+        "text": "The \"OK\" hand gesture is among the 36 new entries added Thursday to a database of hate symbols used by white supremacists and other far-right extremists.",
+        "label": "Biased",
+        "rationale": "Thursday to a database of hate symbols used by white supremacists and other far-right extremists."
+    },
+    {
+        "workerId": "public.us-east-1.A2NX8I06A12P3I",
+        "datasetObjectId": "7",
+        "text": "The \"OK\" hand gesture is among the 36 new entries added Thursday to a database of hate symbols used by white supremacists and other far-right extremists.",
+        "label": "Biased",
+        "rationale": "It's biased because it cites a political side, in this case the far-right extremists and white supremacists, this can influence the opinion of readers to believe that only these people use this gesture qualified as a \"symbol of hate\""
+    },
+    {
+        "workerId": "public.us-east-1.A1V2H0UF94ATWY",
+        "datasetObjectId": "5",
+        "text": "Her proposal brings into sharp focus conservatives\u2019 crusade to legislate control of women\u2019s bodies through restrictive abortion bills and other measures that undermine reproductive rights.",
+        "label": "Biased",
+        "rationale": "The statement is somewhat biased in that it implies that convervatives are focused on a crusade to legislate control over women's bodies."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "5",
+        "text": "Her proposal brings into sharp focus conservatives\u2019 crusade to legislate control of women\u2019s bodies through restrictive abortion bills and other measures that undermine reproductive rights.",
+        "label": "Biased",
+        "rationale": "A crusade normally refer to a religious war. Saying here that the conservatives are on a crusade on this topic, without giving much explanation (about why it's a religious war), is biased."
+    },
+    {
+        "workerId": "public.us-east-1.A2HMEGTAFO0CS8",
+        "datasetObjectId": "9",
+        "text": "Proponents of stricter protections for students argue the DOE\u2019s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans.",
+        "label": "Biased",
+        "rationale": "protections for students is very biased "
+    },
+    {
+        "workerId": "public.us-east-1.A39XAYMFTBZIYV",
+        "datasetObjectId": "9",
+        "text": "Proponents of stricter protections for students argue the DOE\u2019s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans.",
+        "label": "Biased",
+        "rationale": "good"
+    },
+    {
+        "workerId": "public.us-east-1.A3C6GJCHAWXEAA",
+        "datasetObjectId": "2",
+        "text": "The man-made Amazon fires are for clearing the land of its forests and indigenous people. The benefits are for Jair Bolsonaro\u2019s cronies, while producing a climate disaster for the world.",
+        "label": "Biased",
+        "rationale": "We should not destroy the natural resources so it is biased"
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "2",
+        "text": "The man-made Amazon fires are for clearing the land of its forests and indigenous people. The benefits are for Jair Bolsonaro\u2019s cronies, while producing a climate disaster for the world.",
+        "label": "Unbiased",
+        "rationale": "The impact of such climate change is going to be far more adverse in tropical and equatorial regions of the world"
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "7",
+        "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.",
+        "label": "Biased",
+        "rationale": "An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists."
+    },
+    {
+        "workerId": "public.us-east-1.A1D321NM47DMJ0",
+        "datasetObjectId": "7",
+        "text": "But the national and global trends spin a tale of two separate realities. An irrational fear of vaccines among well-educated and largely white Americans has fueled an utterly preventable and dangerous disease that had been considered \"eliminated\" by scientists.",
+        "label": "Biased",
+        "rationale": "good"
+    },
+    {
+        "workerId": "public.us-east-1.AM8ZEA3RDPGSA",
+        "datasetObjectId": "3",
+        "text": "Greta Thunberg, the teenage climate activist from Sweden, the 16-year-old\u2019s steely-eyed courage has helped inspire kids across the country \u2014 and the world \u2014 to join her call to strike from school last week and stand up for more aggressive action to combat the climate crisis.",
+        "label": "Biased",
+        "rationale": "help to the climate crisis."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "3",
+        "text": "Greta Thunberg, the teenage climate activist from Sweden, the 16-year-old\u2019s steely-eyed courage has helped inspire kids across the country \u2014 and the world \u2014 to join her call to strike from school last week and stand up for more aggressive action to combat the climate crisis.",
+        "label": "Biased",
+        "rationale": "Biased, the person who wrote it clearly agrees with the cause. Using terms such as courage, inspiring, shows a personal interest in the movement. "
+    },
+    {
+        "workerId": "public.us-east-1.A3SWS8OEGIPLO4",
+        "datasetObjectId": "4",
+        "text": "Many Latino voters know from personal and family experience how U.S. foreign policies drive people from their homes. ",
+        "label": "Biased",
+        "rationale": " Statistics provided by the national survey of Latinos conducted in 2018 suggests that policy resulted in many deportations."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "4",
+        "text": "Many Latino voters know from personal and family experience how U.S. foreign policies drive people from their homes. ",
+        "label": "Biased",
+        "rationale": "It shows bias based on blanketing in the Latinos with people getting driven from their homes. An opinion statement without statistics to back up the claim."
+    },
+    {
+        "workerId": "public.us-east-1.A3K54YHTE92QEP",
+        "datasetObjectId": "3",
+        "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
+        "label": "Biased",
+        "rationale": " I hope the ones doing the pushing will reconsider."
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "3",
+        "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
+        "label": "Unbiased",
+        "rationale": "Concepts of Democrats supremacy were at the heart of the defense of slavery"
+    },
+    {
+        "workerId": "public.us-east-1.A2CFI1X8OKYIL2",
+        "datasetObjectId": "5",
+        "text": "Racist Rep. Steve King (R-Iowa) said generations of people would not be here without rape and incest while making the case for anti-abortion legislation without exceptions for victims of those crimes.",
+        "label": "Biased",
+        "rationale": "Racism has nothing to do with Steve King\u2019s stancd on abortion."
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "5",
+        "text": "Racist Rep. Steve King (R-Iowa) said generations of people would not be here without rape and incest while making the case for anti-abortion legislation without exceptions for victims of those crimes.",
+        "label": "Unbiased",
+        "rationale": "King was defending his anti-abortion legislation,"
+    },
+    {
+        "workerId": "public.us-east-1.A1GWEENWSTM5Z",
+        "datasetObjectId": "5",
+        "text": "The Republican president assumed he was helping the industry at the expense of the environment \u2013 a trade-off Trump was happy to make since he rejects climate science anyway. ",
+        "label": "Unbiased",
+        "rationale": " he rejects climate science anyway. "
+    },
+    {
+        "workerId": "public.us-east-1.A2TO6N1MTMQD1B",
+        "datasetObjectId": "5",
+        "text": "The Republican president assumed he was helping the industry at the expense of the environment \u2013 a trade-off Trump was happy to make since he rejects climate science anyway. ",
+        "label": "Biased",
+        "rationale": "because of e Republican president assumed he was helping the industry at the expense of the environment \u2013 a trade-off Trump was happy to make since he rejects climate science anyway."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "1",
+        "text": "Before the shooting death of women's rights activist and artist Isabel Cabanillas de la Torre in Ciudad Juarez, Mexico, human rights attorneys and others already had noted several years of rising femicides in the border city.",
+        "label": "Unbiased",
+        "rationale": "It stated an event that occurred followed by information about a given topic. It didn't appear to make a stance."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "1",
+        "text": "Before the shooting death of women's rights activist and artist Isabel Cabanillas de la Torre in Ciudad Juarez, Mexico, human rights attorneys and others already had noted several years of rising femicides in the border city.",
+        "label": "Unbiased",
+        "rationale": "Everything in this is verifiable with numbers. You need to trust the human rights attorneys (or other) about this statement, but it's probably really easy to verify."
+    },
+    {
+        "workerId": "public.us-east-1.A3I3IFFQW3CB1P",
+        "datasetObjectId": "8",
+        "text": "Trump signed a GOP tax bill in 2017 that cut taxes for the middle class but delivered a larger tax break for the wealthiest Americans.",
+        "label": "Biased",
+        "rationale": "He wouldn't raise taxes by a penny on anyone making less than $400,000. In contrast, Congressional Republicans would continue the big handouts"
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "8",
+        "text": "Trump signed a GOP tax bill in 2017 that cut taxes for the middle class but delivered a larger tax break for the wealthiest Americans.",
+        "label": "Biased",
+        "rationale": "I believe it to show some bias, the bill has a lot more technicalities than simply giving the wealthiest of Americans a clear tax break."
+    },
+    {
+        "workerId": "public.us-east-1.A1OXYF7SCAFA1",
+        "datasetObjectId": "1",
+        "text": "Peace and justice advocates are praising a letter from a dozen House Democrats urging further military aid to Israel be conditioned on the state not annexing larger swaths of the occupied West Bank and calling on Congress to ensure the human rights of the Palestinian people be respected.",
+        "label": "Unbiased",
+        "rationale": "praising a letter from a dozen House Democrats urging further military"
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "1",
+        "text": "Peace and justice advocates are praising a letter from a dozen House Democrats urging further military aid to Israel be conditioned on the state not annexing larger swaths of the occupied West Bank and calling on Congress to ensure the human rights of the Palestinian people be respected.",
+        "label": "Biased",
+        "rationale": "Palestinian people had the right to an independent, free and sovereign State"
+    },
+    {
+        "workerId": "public.us-east-1.A1FVXS8IM5QYO8",
+        "datasetObjectId": "2",
+        "text": "Two years after the Trump administration made the state-sanctioned kidnapping of children at the border official U.S. policy, the horrors around this crime against humanity continue to be exposed.",
+        "label": "Biased",
+        "rationale": "I believe that is biased because it calls the US border policy (regarding children crossing the border and being separated from their parents) as 'state-sanctioned kidnapping' and a crime against humanity."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "2",
+        "text": "Two years after the Trump administration made the state-sanctioned kidnapping of children at the border official U.S. policy, the horrors around this crime against humanity continue to be exposed.",
+        "label": "Biased",
+        "rationale": "Clear bias. Calling something state-sanctioned kidnapping of children is completely driven by personal emotions and beliefs."
+    },
+    {
+        "workerId": "public.us-east-1.A3JLDWGO44AVD2",
+        "datasetObjectId": "6",
+        "text": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday \u2014 and who received straight-armed Nazi-like salutes in response ...",
+        "label": "Biased",
+        "rationale": "A new generation of nationalists sees a chance to ride Donald Trump's coattails into the capital. But first they need to do some serious re-branding.so i think it is biased"
+    },
+    {
+        "workerId": "public.us-east-1.A1MG8KNVSVZ365",
+        "datasetObjectId": "6",
+        "text": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday \u2014 and who received straight-armed Nazi-like salutes in response ...",
+        "label": "Biased",
+        "rationale": "nothing"
+    },
+    {
+        "workerId": "public.us-east-1.A19TD2J8506A4Y",
+        "datasetObjectId": "0",
+        "text": "The beauty routine for prominent women who work and live under the eye of a camera can include not just haircuts, but hair color, highlights, lowlights, Keratin treatments, blowouts, braids, manicures, pedicures, facials, eyebrow waxes, eyelash extensions.",
+        "label": "Biased",
+        "rationale": "It would exclude people without the correct type of hair and certain facial features. People unable to go through keratin treatments for health reasons may be excluded."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "0",
+        "text": "The beauty routine for prominent women who work and live under the eye of a camera can include not just haircuts, but hair color, highlights, lowlights, Keratin treatments, blowouts, braids, manicures, pedicures, facials, eyebrow waxes, eyelash extensions.",
+        "label": "Unbiased",
+        "rationale": "That simply a factual statement, all those treatments are available and used by women across many occupations. "
+    },
+    {
+        "workerId": "public.us-east-1.A2CFI1X8OKYIL2",
+        "datasetObjectId": "2",
+        "text": "At the dawn of the year 2010, few Americans could predict that the coming decade would revolutionize the legal and cultural landscape for lesbian, gay, bisexual, transgender and queer people.",
+        "label": "Unbiased",
+        "rationale": "The statement does not seem to contain any opinions on whether this is good or bad, and therefore I find it to be an unbiased observation."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "2",
+        "text": "At the dawn of the year 2010, few Americans could predict that the coming decade would revolutionize the legal and cultural landscape for lesbian, gay, bisexual, transgender and queer people.",
+        "label": "Biased",
+        "rationale": "I believe this to be biased, it's an opinion that can't be easily proven. "
+    },
+    {
+        "workerId": "public.us-east-1.A2CFI1X8OKYIL2",
+        "datasetObjectId": "0",
+        "text": "When the Muslim ban was first enacted, it triggered chaos at airports and prompted widespread protest and legal challenges, and it continues to impose devastating costs on families and people who wish to come to the U.S.",
+        "label": "Biased",
+        "rationale": "Referring to this travel policy as a \"Muslim ban\" is in and of itself, biased. It is a policy that prevented people from dangerous countries in the middle east from coming to the United States, regardless of their religion."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "0",
+        "text": "When the Muslim ban was first enacted, it triggered chaos at airports and prompted widespread protest and legal challenges, and it continues to impose devastating costs on families and people who wish to come to the U.S.",
+        "label": "Biased",
+        "rationale": "The first sentence is unbiased, protests can be proven without bias. Imposing devastating costs is a personal opinion."
+    },
+    {
+        "workerId": "public.us-east-1.A3I3IFFQW3CB1P",
+        "datasetObjectId": "7",
+        "text": "Right-wing media sprung into action to try to discredit her, of course, by implying that a woman who graduated summa cum laude with an economics degree is a bimbo and with  Twitchy using a screenshot to make the usually genial Ocasio-Cortez somehow look like a ballbuster.",
+        "label": "Biased",
+        "rationale": "implying that a woman who graduated summa cum laude with an economics degree is a bimbo and with Twitchy using a screenshot "
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "7",
+        "text": "Right-wing media sprung into action to try to discredit her, of course, by implying that a woman who graduated summa cum laude with an economics degree is a bimbo and with  Twitchy using a screenshot to make the usually genial Ocasio-Cortez somehow look like a ballbuster.",
+        "label": "Biased",
+        "rationale": "Clearly a biased statement. Simply defaming a group based off personal beliefs."
+    },
+    {
+        "workerId": "public.us-east-1.A2C3TRGUJV8HRL",
+        "datasetObjectId": "9",
+        "text": "In Australia, record high temperatures and drought exacerbated by the climate crisis have ignited blazes that have killed more than two dozen people and destroyed 2,000 homes since September.",
+        "label": "Biased",
+        "rationale": "i thoughts"
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "9",
+        "text": "In Australia, record high temperatures and drought exacerbated by the climate crisis have ignited blazes that have killed more than two dozen people and destroyed 2,000 homes since September.",
+        "label": "Unbiased",
+        "rationale": "Unbiased, simply relaying factual information that can be statistically proven."
+    },
+    {
+        "workerId": "public.us-east-1.A3D1QQ8BEO75C6",
+        "datasetObjectId": "6",
+        "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.",
+        "label": "Biased",
+        "rationale": "i thought this passage is wright and best one"
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "6",
+        "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.",
+        "label": "Unbiased",
+        "rationale": "To say that to battle is complicated by vocal anti-vaccination movement seems trustable and belivable. Unbiased."
+    },
+    {
+        "workerId": "public.us-east-1.A1GWEENWSTM5Z",
+        "datasetObjectId": "0",
+        "text": "Five of eight gun control bills endorsed by Democratic Gov. Ralph Northam have been approved in both houses of the General Assembly\u00a0and will head\u00a0to\u00a0Northam for signature.\u00a0",
+        "label": "Biased",
+        "rationale": "Ralph Northam have been approved in both houses of the General Assembly and will head to Northam for signature. "
+    },
+    {
+        "workerId": "public.us-east-1.A2TO6N1MTMQD1B",
+        "datasetObjectId": "0",
+        "text": "Five of eight gun control bills endorsed by Democratic Gov. Ralph Northam have been approved in both houses of the General Assembly\u00a0and will head\u00a0to\u00a0Northam for signature.\u00a0",
+        "label": "Biased",
+        "rationale": "because of  Five of eight gun control bills endorsed by Democratic Gov. Ralph Northam have been approved in both houses of the General Assembly and will head to Northam for signature. "
+    },
+    {
+        "workerId": "public.us-east-1.A1FVXS8IM5QYO8",
+        "datasetObjectId": "1",
+        "text": "That\u2019s why a new proposal from a bevy of progressive lawmakers comes as a welcome and innovative addition to the policy arsenal: increasing the corporate tax rate in accordance with the gap between CEO pay and median worker pay.",
+        "label": "Biased",
+        "rationale": "I believe it is somewhat biased because it describes the proposal to increase the corporate tax as a 'welcome and innovative addition'. Not everyone would agree with this, so it shows bias."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "1",
+        "text": "That\u2019s why a new proposal from a bevy of progressive lawmakers comes as a welcome and innovative addition to the policy arsenal: increasing the corporate tax rate in accordance with the gap between CEO pay and median worker pay.",
+        "label": "Biased",
+        "rationale": "Personal opinion. Using the terms welcomed and innovative shows a clear bias."
+    },
+    {
+        "workerId": "public.us-east-1.A31JKAMYB4IB7",
+        "datasetObjectId": "4",
+        "text": "Other European countries have also said they will strip dual nationals who joined Islamic State of citizenship.",
+        "label": "Biased",
+        "rationale": "Because  European countries taught in their way."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "4",
+        "text": "Other European countries have also said they will strip dual nationals who joined Islamic State of citizenship.",
+        "label": "Unbiased",
+        "rationale": "Those politicians revelations on this topic is probably very easy the verify on the web. Unbiased"
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "3",
+        "text": "David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.\"",
+        "label": "Biased",
+        "rationale": "cited the coronavirus pandemic in telling Parscale"
+    },
+    {
+        "workerId": "public.us-east-1.A2TO6N1MTMQD1B",
+        "datasetObjectId": "3",
+        "text": "David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.\"",
+        "label": "Unbiased",
+        "rationale": "because of David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.\""
+    },
+    {
+        "workerId": "public.us-east-1.A1FVXS8IM5QYO8",
+        "datasetObjectId": "2",
+        "text": "The idea of imposing a wealth tax on the richest Americans has elicited sharply divergent views across a spectrum of politicians, with President Donald Trump branding it socialist and progressive Democratic presidential contenders Senators Elizabeth Warren and Bernie Sanders prominently endorsing it.",
+        "label": "Unbiased",
+        "rationale": "This is unbiased because it states two opposing views of the idea of imposing a wealth tax on the richest Americans, from both the right and the left. "
+    },
+    {
+        "workerId": "public.us-east-1.A2TO6N1MTMQD1B",
+        "datasetObjectId": "2",
+        "text": "The idea of imposing a wealth tax on the richest Americans has elicited sharply divergent views across a spectrum of politicians, with President Donald Trump branding it socialist and progressive Democratic presidential contenders Senators Elizabeth Warren and Bernie Sanders prominently endorsing it.",
+        "label": "Biased",
+        "rationale": "because of    The idea of imposing a wealth tax on the richest Americans has elicited sharply divergent views across a spectrum of politicians, with President Donald Trump branding it socialist and progressive Democratic presidential contenders Senators Elizabeth Warren and Bernie Sanders prominently endorsing it."
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "8",
+        "text": "U.S. President Donald Trump on Thursday said a decision by House Democrats to pursue articles of impeachment against him means that future presidents will routinely face impeachment threats from lawmakers.",
+        "label": "Unbiased",
+        "rationale": "Everything there is probably easilly verifiable because it's some declaration from the president Trumb. Unbiased"
+    },
+    {
+        "workerId": "public.us-east-1.A2NX8I06A12P3I",
+        "datasetObjectId": "8",
+        "text": "U.S. President Donald Trump on Thursday said a decision by House Democrats to pursue articles of impeachment against him means that future presidents will routinely face impeachment threats from lawmakers.",
+        "label": "Biased",
+        "rationale": "Biased. The text states that only Democrats are against Trump and is linking this political party to future parliamentary impeachments."
+    },
+    {
+        "workerId": "public.us-east-1.A1GWEENWSTM5Z",
+        "datasetObjectId": "5",
+        "text": "The institute attributes the growth to billionaires\u2019 use of tax cuts, tax exemptions and offshore tax havens.",
+        "label": "Biased",
+        "rationale": "        The institute attributes the growth to billionaires\u2019 use of tax cuts, tax exemptions and offshore tax havens."
+    },
+    {
+        "workerId": "public.us-east-1.A3I3IFFQW3CB1P",
+        "datasetObjectId": "5",
+        "text": "The institute attributes the growth to billionaires\u2019 use of tax cuts, tax exemptions and offshore tax havens.",
+        "label": "Biased",
+        "rationale": "The federal government loses both individual and corporate income tax revenue from the shifting of profits and income into low-tax countries."
+    },
+    {
+        "workerId": "public.us-east-1.A3I3IFFQW3CB1P",
+        "datasetObjectId": "1",
+        "text": "A Gallup poll reports that women are still more likely to do laundry, clean the house, do grocery shopping, prepare meals, wash dishes and make decisions about furniture and decorations \u2013 even among younger generations who are reportedly more egalitarian as ever.",
+        "label": "Biased",
+        "rationale": "Although women in both types of households are still more likely to be responsible for laundry, meal preparation, dishwashing and cleaning"
+    },
+    {
+        "workerId": "public.us-east-1.A1GWEENWSTM5Z",
+        "datasetObjectId": "1",
+        "text": "A Gallup poll reports that women are still more likely to do laundry, clean the house, do grocery shopping, prepare meals, wash dishes and make decisions about furniture and decorations \u2013 even among younger generations who are reportedly more egalitarian as ever.",
+        "label": "Biased",
+        "rationale": "A Gallup poll reports that women are still more likely to do laundry, clean the house,"
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "5",
+        "text": "But decades of study have shown no link at all, and scientists are becoming increasingly impatient with the refusal to accept their findings.",
+        "label": "Biased",
+        "rationale": " increasingly impatient"
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "5",
+        "text": "But decades of study have shown no link at all, and scientists are becoming increasingly impatient with the refusal to accept their findings.",
+        "label": "Unbiased",
+        "rationale": "Stating studies have shown no link is unbiased. Simply providing the information."
+    },
+    {
+        "workerId": "public.us-east-1.A3K54YHTE92QEP",
+        "datasetObjectId": "3",
+        "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
+        "label": "Biased",
+        "rationale": " I hope the ones doing the pushing will reconsider."
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "3",
+        "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
+        "label": "Unbiased",
+        "rationale": "Concepts of Democrats supremacy were at the heart of the defense of slavery"
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "6",
+        "text": "Since Roe v. Wade, when the Supreme Court recognized the constitutional right to an abortion, state lawmakers have devised novel ways to cut off access to the procedure without banning it outright. One strategy is to require clinics and doctors to comply with an ever-expanding list of regulations, with the goal of essentially red-taping providers out of business.",
+        "label": "Biased",
+        "rationale": "Assigning the goal of red-taping providers out of business is showing a personal bias of the situation."
+    },
+    {
+        "workerId": "public.us-east-1.A1UQPMG1XXP671",
+        "datasetObjectId": "6",
+        "text": "Since Roe v. Wade, when the Supreme Court recognized the constitutional right to an abortion, state lawmakers have devised novel ways to cut off access to the procedure without banning it outright. One strategy is to require clinics and doctors to comply with an ever-expanding list of regulations, with the goal of essentially red-taping providers out of business.",
+        "label": "Biased",
+        "rationale": "It will be biased because abortion is very bad condition."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "0",
+        "text": "For one thing, Trump\u2019s impatience now threatens to undo the measures of the last ten weeks. Thanks in part to the foment of anti-lockdown protesters tacitly endorsed by Trump, governors are under increasing political pressure to reopen quickly\u2014perhaps too soon.",
+        "label": "Biased",
+        "rationale": "Shows a clear bias. Uses personal beliefs in the statement."
+    },
+    {
+        "workerId": "public.us-east-1.A26MRON9XGPVB5",
+        "datasetObjectId": "0",
+        "text": "For one thing, Trump\u2019s impatience now threatens to undo the measures of the last ten weeks. Thanks in part to the foment of anti-lockdown protesters tacitly endorsed by Trump, governors are under increasing political pressure to reopen quickly\u2014perhaps too soon.",
+        "label": "Biased",
+        "rationale": "The way the words are strung together make it sound like someone is out to get someone. This doesn't sound at all like a fact, but rather an opinion."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "9",
+        "text": "Nearly 60 percent of Americans now support the marginal tax rate program Ocasio-Cortez has proposed uncluding a remarkable 45 percent of Republicans, despite all the work right-wing media has done to demonize Ocasio-Cortez and anything related to her.",
+        "label": "Biased",
+        "rationale": "The first half is unbiased. Then the statement claims right wing media demonized the person, while the statement is demonizing the group themselves. Clearly a personal interest is involved, biased."
+    },
+    {
+        "workerId": "public.us-east-1.A26MRON9XGPVB5",
+        "datasetObjectId": "9",
+        "text": "Nearly 60 percent of Americans now support the marginal tax rate program Ocasio-Cortez has proposed uncluding a remarkable 45 percent of Republicans, despite all the work right-wing media has done to demonize Ocasio-Cortez and anything related to her.",
+        "label": "Biased",
+        "rationale": "The phrasing is extremely biased because I cannot see how demonizing can be considered any sort of impartial process."
+    },
+    {
+        "workerId": "public.us-east-1.AM8ZEA3RDPGSA",
+        "datasetObjectId": "4",
+        "text": "U.S. immigration officials on Monday deported an Iranian student headed to a Boston university despite efforts by the American Civil Liberties Union and other advocates to block the removal.",
+        "label": "Biased",
+        "rationale": "Civil Liberties Union and other advocates to block the removal.       "
+    },
+    {
+        "workerId": "public.us-east-1.A1XH05IKC77OXO",
+        "datasetObjectId": "4",
+        "text": "U.S. immigration officials on Monday deported an Iranian student headed to a Boston university despite efforts by the American Civil Liberties Union and other advocates to block the removal.",
+        "label": "Biased",
+        "rationale": "   U.S. immigration officials on Monday deported an Iranian student headed to a Boston university "
+    },
+    {
+        "workerId": "public.us-east-1.A2FRIVYVIK37V1",
+        "datasetObjectId": "1",
+        "text": "James Steckelberg of the Mayo Clinic said people 65 and over should be administered high-dose flu vaccines to stimulate their immune system. ",
+        "label": "Biased",
+        "rationale": "Mayo Clinic said people 65 and over should be administered"
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "1",
+        "text": "James Steckelberg of the Mayo Clinic said people 65 and over should be administered high-dose flu vaccines to stimulate their immune system. ",
+        "label": "Unbiased",
+        "rationale": "Everything here seems credible because he's working at some clinic. The text don't stretch the reality. Unbiased."
+    },
+    {
+        "workerId": "public.us-east-1.A2IC4IMH7G9UKU",
+        "datasetObjectId": "0",
+        "text": "Strava, which tracks the sports activity trends of some 50 million people in almost 200 countries, surveyed 25,000 runners and found that half of them say they either hate it or barely tolerate it, while only 8% love it.",
+        "label": "Unbiased",
+        "rationale": "This article is just stating facts about how much a sport is liked by other people."
+    },
+    {
+        "workerId": "public.us-east-1.A1GWEENWSTM5Z",
+        "datasetObjectId": "0",
+        "text": "Strava, which tracks the sports activity trends of some 50 million people in almost 200 countries, surveyed 25,000 runners and found that half of them say they either hate it or barely tolerate it, while only 8% love it.",
+        "label": "Biased",
+        "rationale": "surveyed 25,000 runners and found that half of them say they either hate it or barely tolerate it, while only 8% love it."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "8",
+        "text": "The Sandy Hook tragedy rocked the United States when a 20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself.",
+        "label": "Unbiased",
+        "rationale": "It is simply providing the factual information on the events"
+    },
+    {
+        "workerId": "public.us-east-1.A2TO6N1MTMQD1B",
+        "datasetObjectId": "8",
+        "text": "The Sandy Hook tragedy rocked the United States when a 20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself.",
+        "label": "Unbiased",
+        "rationale": "because of  20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself. he treated equally."
+    },
+    {
+        "workerId": "public.us-east-1.A1FVXS8IM5QYO8",
+        "datasetObjectId": "3",
+        "text": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States.",
+        "label": "Biased",
+        "rationale": "I believe it is biased because it has a positive tone when talking about conservatives, describing the probability of rolling back abortion rights in the US as a \"huge victory\". "
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "3",
+        "text": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States.",
+        "label": "Biased",
+        "rationale": "The two justices being appointed is factual, rolling back abortion rights is a nuanced topic."
+    },
+    {
+        "workerId": "public.us-east-1.A3I3IFFQW3CB1P",
+        "datasetObjectId": "8",
+        "text": "Amid pressure from Washington, Mexico is backpedaling on promises of better treatment for Central American migrants, leaving hundreds stranded in unsanitary camps near its southern border and allegations of irregular detentions.",
+        "label": "Biased",
+        "rationale": "The United States is seeing a rise in apprehensions of unaccompanied migrant children, most from Central America, along its southern border"
+    },
+    {
+        "workerId": "public.us-east-1.AV4IKB8X15OCF",
+        "datasetObjectId": "8",
+        "text": "Amid pressure from Washington, Mexico is backpedaling on promises of better treatment for Central American migrants, leaving hundreds stranded in unsanitary camps near its southern border and allegations of irregular detentions.",
+        "label": "Biased",
+        "rationale": "Because Migrant camps overflow as mexico cracks down after Trump threats."
+    },
+    {
+        "workerId": "public.us-east-1.AV4IKB8X15OCF",
+        "datasetObjectId": "3",
+        "text": "Many Democratic voters have said they believe that sexism does makes it harder for women to win than for men.",
+        "label": "Biased",
+        "rationale": "Many of those who say it is important for men and women to have equal rights point to aspects of the workplace when asked about gender equality."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "3",
+        "text": "Many Democratic voters have said they believe that sexism does makes it harder for women to win than for men.",
+        "label": "Unbiased",
+        "rationale": "Unbiased, I believe that statement could be applied to any person, group or organization."
+    },
+    {
+        "workerId": "public.us-east-1.A2HMEGTAFO0CS8",
+        "datasetObjectId": "8",
+        "text": "President Donald Trump is losing support from his evangelical base as he lurches from one crisis into another. Numerous polls show that religious Americans, like most other Americans, disapprove of the president\u2019s performance, and that could imperil his re-election chances.",
+        "label": "Biased",
+        "rationale": "the performance could imperil his re-election chances"
+    },
+    {
+        "workerId": "public.us-east-1.A1D321NM47DMJ0",
+        "datasetObjectId": "8",
+        "text": "President Donald Trump is losing support from his evangelical base as he lurches from one crisis into another. Numerous polls show that religious Americans, like most other Americans, disapprove of the president\u2019s performance, and that could imperil his re-election chances.",
+        "label": "Biased",
+        "rationale": "good"
+    },
+    {
+        "workerId": "public.us-east-1.A2YB74HPG0M1F8",
+        "datasetObjectId": "9",
+        "text": "Despite saving millions upon millions of lives, vaccines have been meet with skepticism by a small but growing faction of conspiracy theorists. And Donald Trump, \"human megaphone that is the president of the United States,\" has only made matters worse by supporting an \"alternative vaccine schedule.\"",
+        "label": "Biased",
+        "rationale": "i thought this passage"
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "9",
+        "text": "Despite saving millions upon millions of lives, vaccines have been meet with skepticism by a small but growing faction of conspiracy theorists. And Donald Trump, \"human megaphone that is the president of the United States,\" has only made matters worse by supporting an \"alternative vaccine schedule.\"",
+        "label": "Biased",
+        "rationale": "Even if almost everybody would agree about the expression \"human megaphone\" refering to Donald Trump. It's unnecerray there to make the point. Everything else in the text is somewhat verifiable with numbers. Using this expression there is biased."
+    },
+    {
+        "workerId": "public.us-east-1.A1V2H0UF94ATWY",
+        "datasetObjectId": "4",
+        "text": "In Washington, three key issues seemed to galvanize most of the protesters: climate change, immigration and reproductive rights.",
+        "label": "Unbiased",
+        "rationale": "It is unbiased because it uses the phrase \"seemed to.\""
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "4",
+        "text": "In Washington, three key issues seemed to galvanize most of the protesters: climate change, immigration and reproductive rights.",
+        "label": "Unbiased",
+        "rationale": "By viewing the amount of protesters once could rank the most occupied or talked about issues."
+    },
+    {
+        "workerId": "public.us-east-1.A2YB74HPG0M1F8",
+        "datasetObjectId": "4",
+        "text": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity, Sanders could instead have turned to an array of \"progressive prosecutors.\"",
+        "label": "Biased",
+        "rationale": "i thought is passage must wright one"
+    },
+    {
+        "workerId": "public.us-east-1.A1XH05IKC77OXO",
+        "datasetObjectId": "4",
+        "text": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity, Sanders could instead have turned to an array of \"progressive prosecutors.\"",
+        "label": "Biased",
+        "rationale": " If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity"
+    },
+    {
+        "workerId": "public.us-east-1.AV4IKB8X15OCF",
+        "datasetObjectId": "6",
+        "text": "That the Secret Service takes precautions to protect the president in a time of chaos is, in itself, to be expected. But the contrast between Trump\u2019s chest-thumping and the fact that he was cowering in the basement was objectively funny.  Unsurprisingly, a lot of people made fun of him, and he didn\u2019t like it.",
+        "label": "Unbiased",
+        "rationale": "Now Trump wants to edit real life like on episode."
+    },
+    {
+        "workerId": "public.us-east-1.A2H2DJL45BZBD",
+        "datasetObjectId": "6",
+        "text": "That the Secret Service takes precautions to protect the president in a time of chaos is, in itself, to be expected. But the contrast between Trump\u2019s chest-thumping and the fact that he was cowering in the basement was objectively funny.  Unsurprisingly, a lot of people made fun of him, and he didn\u2019t like it.",
+        "label": "Biased",
+        "rationale": "I'm not sure what to say here. It is clearly someone who dislikes President Trump. Chest-thumping, cowering, are personal insults. Clear bias."
+    },
+    {
+        "workerId": "public.us-east-1.A3K54YHTE92QEP",
+        "datasetObjectId": "4",
+        "text": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said.",
+        "label": "Biased",
+        "rationale": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said."
+    },
+    {
+        "workerId": "public.us-east-1.A382SL9ROIY1P6",
+        "datasetObjectId": "4",
+        "text": "Today, the same propaganda is created quickly in the form of digital memes and other media that can be shared widely across the internet, she said.",
+        "label": "Biased",
+        "rationale": "Internet digital memes are one of the latest revolutions"
+    },
+    {
+        "workerId": "public.us-east-1.A2W0G89O7E9EFO",
+        "datasetObjectId": "1",
+        "text": "Bernie Sanders, meanwhile, sees early voting as a way to boost turnout among core constituencies like young, minority and working-class voters. Early voting opens new opportunities for people with strict work schedules or other barriers to voting to find time to cast ballots beyond the typical Election Day, spokeswoman Sarah Ford said.",
+        "label": "Biased",
+        "rationale": "Although there are two people quoted, both quotes are in support of early voting.  The author appears supportive of a particular issue and has so far only provided one side of the issue, which is in favor of early voting.  "
+    },
+    {
+        "workerId": "public.us-east-1.AM8ZEA3RDPGSA",
+        "datasetObjectId": "1",
+        "text": "Bernie Sanders, meanwhile, sees early voting as a way to boost turnout among core constituencies like young, minority and working-class voters. Early voting opens new opportunities for people with strict work schedules or other barriers to voting to find time to cast ballots beyond the typical Election Day, spokeswoman Sarah Ford said.",
+        "label": "Unbiased",
+        "rationale": " spokeswoman Sarah Ford said.       "
+    },
+    {
+        "workerId": "public.us-east-1.AM8ZEA3RDPGSA",
+        "datasetObjectId": "3",
+        "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.",
+        "label": "Unbiased",
+        "rationale": "Bloomberg LP, fostered a hostile environment for female employees.       "
+    },
+    {
+        "workerId": "public.us-east-1.A2ZM10511OH8WY",
+        "datasetObjectId": "3",
+        "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.",
+        "label": "Unbiased",
+        "rationale": "Saying that Bloomberg fostered some hostile environnement for female employees is highly belivable considering the allegations. Unbiased"
+    }
+]
