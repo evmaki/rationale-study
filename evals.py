@@ -8,6 +8,7 @@ import string
 from os.path import exists
 
 from gensim.models import Word2Vec
+import gensim.downloader as api
 import numpy as np
 
 import nltk
@@ -23,6 +24,7 @@ import matplotlib.mlab as mlab
 
 # df_annotators = pd.read_csv('./mbic/annotators.csv')
 df_annotations = pd.read_json('./mbic/annotations_cleaned.json')
+df_ff_annotations = pd.read_json('./mbic/freeform/coded_consolidated_annotations.json')
 df_labels = pd.read_json('./mbic/labeled_dataset.json')
 
 # nltk.download('stopwords')
@@ -166,6 +168,9 @@ def report_cluster_agreement(df):
         # print(f'Opinion label agreement:\t{cluster_agreement["Label_opinion_agreement"]:.4f}')
         # print(f'> Variance:\t\t{opinion_variance:.4f}\n')
 
+        print(f'Random subsets')
+        n_random_subsets(10, len(annotators))
+
 def n_random_subsets(N, n):
     """ Reports mean and variance agreement for N random subsets of n annotators 
         
@@ -182,6 +187,7 @@ def n_random_subsets(N, n):
         label_bias_agreement.append(agreement['Label_bias_agreement'])
         label_opinion_agreement.append(agreement['Label_opinion_agreement'])
 
+    print(label_bias_agreement)
     label_bias_variance = statistics.variance(label_bias_agreement)
     label_opinion_variance = statistics.variance(label_opinion_agreement)
 
@@ -231,7 +237,7 @@ notin_model = 0
 
 unknown_words = []
 
-def words_to_vectors(words, model):
+def words_to_vectors(words, wv):
     """ Converts a comma-separated string of words/phrases to a padded list of word vectors.
         Padding length has been precomputed - the longest list of words/phrases provided by an annotator 
         in MBIC is 12 long, so all lists are padded to length 12 with zeroed out vectors to make the features 
@@ -253,7 +259,7 @@ def words_to_vectors(words, model):
         # single word, like item == ['gun']
         if len(item) == 1:
             try:
-                vecs.append(model.wv[item[0]])
+                vecs.append(wv[item[0]])
                 in_model += 1
             except KeyError:
                 print(f'[single] "{item[0]}" not in word embedding model, skipping.')
@@ -267,7 +273,7 @@ def words_to_vectors(words, model):
 
             for word in item:
                 try:
-                    phrase_vec.append(model.wv[word])
+                    phrase_vec.append(wv[word])
                     in_model += 1
                 except KeyError:
                     print(f'[phrase] "{word}" not in word embedding model, skipping.')
@@ -314,7 +320,7 @@ def birch_clusters(X, k):
     b = Birch(n_clusters=k).fit(X)
     return b, b.labels_
 
-def plot_clusters(df_clusters, title=''):
+def plot_keyword_clusters(df_clusters, title=''):
     # grab each unique cluster in the dataframe
     clusters = df_clusters['cluster'].unique()
 
@@ -341,19 +347,60 @@ def plot_clusters(df_clusters, title=''):
     pyplot.legend()
     pyplot.show()
 
+def plot_freeform_clusters(df_clusters, title=''):
+    # grab each unique cluster in the dataframe
+    clusters = df_clusters['cluster'].unique()
+
+    df_clusters['x'] = [x for [x, _] in df_clusters['features']]
+    df_clusters['y'] = [y for [_, y] in df_clusters['features']]
+    # df_clusters['z'] = [z for [_, _, z] in df_clusters['features']]
+
+    fig = pyplot.figure()
+    # ax = fig.add_subplot(projection='3d')
+    ax = fig.add_subplot()
+
+    # plot each cluster separately in a different color
+    for cluster in clusters:
+        xs = df_clusters.loc[df_clusters['cluster'] == cluster]['x'].values
+        ys = df_clusters.loc[df_clusters['cluster'] == cluster]['y'].values
+        # zs = df_clusters.loc[df_clusters['cluster'] == cluster]['z'].values
+
+        # ax.scatter(xs, ys, zs, label=f'{cluster}')
+        ax.scatter(xs, ys, label=f'{cluster}')
+    
+    pyplot.title(title)
+    pyplot.legend()
+    pyplot.show()
+
+def plot_freeform_histogram(df_clusters):
+    fig, ax = pyplot.subplots()
+    data = df_clusters['features'].apply(lambda x : str(x))
+
+    print(data)
+
+    N, bins, patches = ax.hist(data, edgecolor='white', linewidth=1)
+
+    # for i in range(0,3):
+    #     patches[i].set_facecolor('b')
+    # for i in range(3,5):    
+    #     patches[i].set_facecolor('r')
+    # for i in range(5, len(patches)):
+    #     patches[i].set_facecolor('black')
+
+    pyplot.show()
+
 def plot_cluster_histograms(df_clusters):
     for cluster in df_clusters['cluster'].unique():
         print(f'Plotting histogram of cluster {cluster} annotators...')
         plot_agreement_histogram(10, annotators=df_clusters.loc[df_clusters['cluster'] == cluster]['survey_record_id'].unique())
 
-def report_cluster_keywords(model, clustering, num_clusters, cluster_centers, num_words):
+def report_cluster_keywords(wv, clustering, num_clusters, cluster_centers, num_words):
     """ Reports the most representative terms in the given clusters. This is a qualitative way
         of examining the types of words each cluster is formed around 
     """
-
     for i in range(num_clusters):
         tokens_per_cluster = ''
-        most_representative = model.wv.most_similar(positive=[cluster_centers[i]], topn=num_words)
+        most_representative = wv.most_similar(positive=[cluster_centers[i]], topn=num_words)
         
         for t in most_representative:
             tokens_per_cluster += f'{t[0]} '
@@ -399,15 +446,19 @@ def plot_agreement_histogram(num_bins=5, annotators=[]):
 
     pyplot.show()
 
-def main():
+def keyword_evals_main(custom_model=True):
     # train the word2vec model for generating word embeddings
-    model = train_word2vec()
+    if custom_model:
+        model = train_word2vec()
+        wv = model.wv
+    else:
+        wv = api.load('word2vec-google-news-300')
 
     # clean up the words in the data frame by turning them into lists of lists and removing stop words
     df_annotations['words'] = df_annotations['words'].apply(lambda x : prepare_words(x))
 
     # map the bias keywords to word embeddings
-    df_annotations['word_embeddings'] = df_annotations['words'].apply(lambda x : words_to_vectors(x, model))
+    df_annotations['word_embeddings'] = df_annotations['words'].apply(lambda x : words_to_vectors(x, wv))
 
     # report how many tokens we lost since the model didn't know about them
     print(f'tokens known to model:\t\t{in_model}')
@@ -433,7 +484,6 @@ def main():
 
     word_embeddings = list(df_annotations['word_embeddings'].values)
     num_clusters = 3
-    num_batches = 500
 
     clustering, cluster_labels = birch_clusters(word_embeddings, num_clusters)
 
@@ -445,11 +495,143 @@ def main():
     })
 
     report_cluster_agreement(df_clusters)
-    report_cluster_keywords(model, clustering, num_clusters, clustering.subcluster_centers_, 10)
+    report_cluster_keywords(wv, clustering, num_clusters, clustering.subcluster_centers_, 10)
 
-    plot_clusters(df_clusters, 'Clusters of keyword rationale content')
+    plot_keyword_clusters(df_clusters, 'Clusters of keyword rationale content (Google News model)')
     # plot_cluster_histograms(df_clusters)
 
- 
-main()
+def freeform_subset_agreement(n):
+    # strip punctuation, lowercase, and remove spaces from sentences in label df and annotation df so that we can
+    # more reliably match on the example text in each to get the gold label
+    df_labels['sentence'] = df_labels['sentence'].apply(lambda x : clean_text(x))
+    df_labels['sentence'] = df_labels['sentence'].apply(lambda x : x.replace(' ', ''))
+
+    df_ff_annotations['text'] = df_ff_annotations['text'].apply(lambda x : clean_text(x))
+    df_ff_annotations['text'] = df_ff_annotations['text'].apply(lambda x : x.replace(' ', ''))
+
+    agreement = {}
+    individual_agreement = {}
+    annotators = df_ff_annotations['workerId'].unique()
+    random_annotators = random.sample(list(annotators), n)
+    
+    # hold the count of agreed bias labels, plus the total number of annotations for the group
+    agreed_bias = 0
+    num_annotations = 0
+    # for each unique annotator in the annotations
+    for annotator in random_annotators:
+        # grab that annotator's annotations in a dataframe
+        df_annotator_annotations = df_ff_annotations.loc[df_ff_annotations['workerId'] == annotator]
+        individual_agreed_bias = 0
+        # look at each of the annotator's annotations and add to the count if it matches the true label
+        for _, row in df_annotator_annotations.iterrows():
+            predicted_bias = row['label']
+
+            actual_bias = df_labels.loc[df_labels['sentence'] == row['text']]['Label_bias'].item()
+
+            if predicted_bias == actual_bias:
+                individual_agreed_bias += 1
+                agreed_bias += 1
+
+        num_annotations_from_annotator = len(df_annotator_annotations.index)
+        num_annotations += num_annotations_from_annotator
+
+        individual_agreement[annotator] = (
+            compute_agreement(individual_agreed_bias, num_annotations_from_annotator)            
+        )
+
+    # compute the group's overall agreement as predicted - actual over the total number of annotations
+    agreement = {
+        'Label_bias_agreement': compute_agreement(agreed_bias, num_annotations),
+        'individual_agreement': individual_agreement
+    }
+
+    return agreement['Label_bias_agreement']
+
+def report_freeform_cluster_agreement(df_clusters):
+    clusters = df_clusters['cluster'].unique()
+
+    # strip punctuation, lowercase, and remove spaces from sentences in label df and annotation df so that we can
+    # more reliably match on the example text in each to get the gold label
+    df_labels['sentence'] = df_labels['sentence'].apply(lambda x : clean_text(x))
+    df_labels['sentence'] = df_labels['sentence'].apply(lambda x : x.replace(' ', ''))
+
+    df_clusters['text'] = df_clusters['text'].apply(lambda x : clean_text(x))
+    df_clusters['text'] = df_clusters['text'].apply(lambda x : x.replace(' ', ''))
+
+    agreements = {}
+
+    for cluster in clusters:
+        annotations = df_clusters.loc[df_clusters['cluster'] == cluster]
+        
+        num_annotations = annotations.shape[0]
+        num_agreed = 0
+        agreements = []
+        
+        for _, annotation in annotations.iterrows():
+            gold_label = df_labels.loc[df_labels['sentence'] == annotation['text']]['Label_bias']
+            
+            if gold_label.empty:
+                print('Warning: no gold label found in labeled dataset. Strings don\'t match.')
+            
+            if annotation['label'] == gold_label.item():
+                num_agreed += 1
+
+        print(f'Cluster:\t\t{cluster}, N = {len(annotations["workerId"].unique())}')
+        print(f'Agreement:\t\t{compute_agreement(num_agreed, num_annotations):.4f}')
+        #print(f'> Variance:\t\t{bias_variance:.4f}\n')
+
+        random_subset_agreements = [freeform_subset_agreement(len(annotations["workerId"].unique())) for _ in range(0, 10)]
+        print(f'N = {len(annotations["workerId"].unique())}')
+        print(f'Random subset: {statistics.mean(random_subset_agreements):.4f}\n')
+
+def freeform_evals_main():
+    # replaces NaNs with nulls
+    df_ff_annotations['Class-1'] = df_ff_annotations['Class-1'].apply(lambda x : "null" if x == '' or x == None else x)
+    df_ff_annotations['Class-2'] = df_ff_annotations['Class-2'].apply(lambda x : "null" if x == '' or x == None else x)
+
+    # replaces "Unbiased" with "Non-biased" so both datasets are consistent
+    df_ff_annotations['label'] = df_ff_annotations['label'].apply(lambda x : "Non-biased" if x == "Unbiased" else x)
+
+    # map unique classes to numeric codes
+    rationale_classes = dict((v,k) for k,v in enumerate(df_ff_annotations['Class-1'].unique()))
+
+    print(f'Classes:     {rationale_classes}')
+    print(f'Annotators:  {len(df_ff_annotations["workerId"].unique())}')
+    print(f'Annotations: {df_ff_annotations.shape[0]}')
+
+    print(f'Class-1')
+    for rationale_class in rationale_classes.keys():
+        print(f'\t{rationale_class:>16}:\t{len(df_ff_annotations.loc[df_ff_annotations["Class-1"] == rationale_class].values)}')
+    
+    print(f'Class-2')
+    for rationale_class in rationale_classes.keys():
+        print(f'\t{rationale_class:>16}:\t{len(df_ff_annotations.loc[df_ff_annotations["Class-2"] == rationale_class].values)}')
+
+    # create a numerical feature vector for each annotation
+    df_ff_annotations['Class-1'] = df_ff_annotations['Class-1'].apply(lambda x : rationale_classes[x])
+    df_ff_annotations['Class-2'] = df_ff_annotations['Class-2'].apply(lambda x : rationale_classes[x])
+    df_ff_annotations['rationale_length'] = df_ff_annotations['rationale'].apply(lambda x : len(x))
+    # df_ff_annotations['features'] = df_ff_annotations[['Class-1', 'Class-2', 'rationale_length']].values.tolist()
+    df_ff_annotations['features'] = df_ff_annotations[['Class-1', 'Class-2']].values.tolist()
+
+    print(df_ff_annotations.head())
+
+    num_clusters = 3
+
+    clustering, cluster_labels = birch_clusters(list(df_ff_annotations['features'].values), num_clusters)
+
+    df_clusters = pd.DataFrame({
+        'features': df_ff_annotations['features'].values,
+        'cluster': cluster_labels,
+        'workerId': df_ff_annotations['workerId'].values,
+        'text': df_ff_annotations['text'].values,
+        'label': df_ff_annotations['label'].values
+    })
+
+    report_freeform_cluster_agreement(df_clusters)
+    plot_freeform_clusters(df_clusters, 'Clusters of freeform rationale content')
+    #plot_freeform_histogram(df_clusters)
+
+freeform_evals_main()
+# keyword_evals_main()
 # plot_agreement_histogram(18)
