@@ -131,7 +131,7 @@ def keyword_evaluations():
     df = pd.read_json('./prepared_mbic_annotations.json')
 
     # pick either the google model or our custom model trained the articles in MBIC
-    word2vec_model = 'word2vec-google-news-300' # 'custom'
+    word2vec_model = 'custom' # 'word2vec-google-news-300'
     print(f'Using Word2Vec model \"{word2vec_model}\"')
 
     # get the learned word embeddings from the word2vec model
@@ -165,7 +165,7 @@ def keyword_evaluations():
         random_errors = random_subset_error(df, N, n)
         print(f'Mean: {statistics.mean(random_errors):.4f}')
 
-    plot_keyword_clusters(df)
+    plot_keyword_clusters(df, title=f'Clusters of keyword rationale content ({word2vec_model} model)')
 
 def freeform_evaluations():
     df = pd.read_json('./prepared_free_annotations.json')
@@ -200,6 +200,26 @@ def freeform_evaluations():
 
     plot_class_histogram(df, rationale_classes)
 
+def format_comparison_evaluations():
+    # load both the keyword and freeform rationale annotations
+    df_keys = pd.read_json('./prepared_mbic_annotations.json')
+    df_free = pd.read_json('./prepared_free_annotations.json')
 
+    df_keys['label_is_true'] = df_keys.apply(lambda x : 1 if x.label == x.gold_label else 0, axis=1)
+    df_free['label_is_true'] = df_free.apply(lambda x : 1 if x.label == x.gold_label else 0, axis=1)
+
+    N = df_keys.shape[0]
+    print(f'Keyword, N = {N}')
+    print(f'Error: {compute_error(df_keys["label_is_true"].sum(), N):.4f}')
+
+    N = df_free.shape[0]
+    print(f'Free-form, N = {N}')
+    print(f'Error: {compute_error(df_free["label_is_true"].sum(), N):.4f}')
+    
+    n = 10
+    print(f'Keyword (random subset), N = {N}, n = {n}')
+    print(f'Error: {statistics.mean(random_subset_error(df_keys, N, n)):.4f}')
+
+format_comparison_evaluations()
 # keyword_evaluations()
-freeform_evaluations()
+# freeform_evaluations()

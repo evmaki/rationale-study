@@ -4,7 +4,7 @@
         "text": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care.",
         "text_hash": "30c1c44d39e825509b7952361aca3995",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "Using describing words like complex and staggering are opinions and therefore biased, the author also gives no proof.",
         "class-1": "Word choice",
         "class-2": "Other"
@@ -14,7 +14,7 @@
         "text": "The picture that emerges is of a system of staggering complexity, riddled with obstacles and cracks, that prioritizes babies over mothers, thwarts women at every turn, frustrates doctors and midwives, and incentivizes substandard care.",
         "text_hash": "30c1c44d39e825509b7952361aca3995",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "It is simply a biased opinion. Prioritizing babies over their mothers will change person to person.",
         "class-1": "Other",
         "class-2": "Self-explanatory"
@@ -44,7 +44,7 @@
         "text": "Republicans are more pessimistic about the country\u2019s direction than at almost any other time during Donald Trump\u2019s presidency, as a trio of crises \u2013 the coronavirus pandemic, an economic downturn and mass protests over police brutality \u2013 buffets his administration.",
         "text_hash": "825d5b78af1402cd74e8c3c766c02716",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the coronavirus pandemic, an economic downturn and mass protests over police brutality \u2013 buffets his administration",
         "class-1": "Word choice",
         "class-2": null
@@ -54,7 +54,7 @@
         "text": "Republicans are more pessimistic about the country\u2019s direction than at almost any other time during Donald Trump\u2019s presidency, as a trio of crises \u2013 the coronavirus pandemic, an economic downturn and mass protests over police brutality \u2013 buffets his administration.",
         "text_hash": "825d5b78af1402cd74e8c3c766c02716",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Republicans can be good for the pandemic and make strong support.",
         "class-1": "Other",
         "class-2": null
@@ -104,7 +104,7 @@
         "text": "We speak with Varshini Prakash, founder of the Sunrise Movement, a youth-led climate group that has occupied and lobbied at congressional offices, risking arrest to demand adoption of the Green New Deal and bold climate leadership.",
         "text_hash": "1ea1c4e4d3e78c8f117b15e027de814e",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Hard to say, I'm leaning towards being biased for the choice of words. Risking arrest to demand, seems to show a bias towards the persons position.",
         "class-1": "Word choice",
         "class-2": null
@@ -114,7 +114,7 @@
         "text": "We speak with Varshini Prakash, founder of the Sunrise Movement, a youth-led climate group that has occupied and lobbied at congressional offices, risking arrest to demand adoption of the Green New Deal and bold climate leadership.",
         "text_hash": "1ea1c4e4d3e78c8f117b15e027de814e",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "It will be biased because it's climate group will occupied in biased condition.",
         "class-1": "Other",
         "class-2": null
@@ -124,7 +124,7 @@
         "text": "Actor and climate change activist Joaquin Phoenix was spotted at Oscars Party with plastic water bottle after climate change rant.",
         "text_hash": "dc5c98e1e8638064b79cb0833df8a160",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "Despite this being a petty thing to point out, it is still factual information and the author does not give a stance on it.",
         "class-1": "Stating facts",
         "class-2": null
@@ -134,7 +134,7 @@
         "text": "Actor and climate change activist Joaquin Phoenix was spotted at Oscars Party with plastic water bottle after climate change rant.",
         "text_hash": "dc5c98e1e8638064b79cb0833df8a160",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "the behavior of Joaquin Phoenix at Oscars Party makes biased",
         "class-1": "Other",
         "class-2": null
@@ -164,7 +164,7 @@
         "text": "The media have tried to convince voters of Trump's failure for many years, but have thus far been unable to do so. Tuesday's special elections show we should hold off on the \"Blue Wave\" and \"Trump can't win\" narratives.",
         "text_hash": "a6679f4a55a8d6860ada79d422901bb6",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the statement regarding trump's failure makes biased",
         "class-1": "Self-explanatory",
         "class-2": null
@@ -174,7 +174,7 @@
         "text": "The media have tried to convince voters of Trump's failure for many years, but have thus far been unable to do so. Tuesday's special elections show we should hold off on the \"Blue Wave\" and \"Trump can't win\" narratives.",
         "text_hash": "a6679f4a55a8d6860ada79d422901bb6",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Triump can do anything for won the election and he don't need media support.",
         "class-1": "Other",
         "class-2": null
@@ -204,7 +204,7 @@
         "text": "Transgender ideology says each persons\u2019 preferences are \u2014 and should be \u2014 unconnected from their bodies. It says that men and women are interchangeable, and can switch their sex by switching their own sense of \"gender identity\" so that men who say they are women really do become biological women, complete with female penises.",
         "text_hash": "e6e7a556035a0198a1168ac5fa5abe4f",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Biased",
         "rationale-freeform": "good very nice",
         "class-1": null,
         "class-2": null
@@ -214,7 +214,7 @@
         "text": "Transgender ideology says each persons\u2019 preferences are \u2014 and should be \u2014 unconnected from their bodies. It says that men and women are interchangeable, and can switch their sex by switching their own sense of \"gender identity\" so that men who say they are women really do become biological women, complete with female penises.",
         "text_hash": "e6e7a556035a0198a1168ac5fa5abe4f",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Biased",
         "rationale-freeform": "because they are not fully transformed",
         "class-1": null,
         "class-2": null
@@ -264,7 +264,7 @@
         "text": "In March, President Trump signed an executive order closing the southern border to stop the spread of the virus from undocumented immigrants who are possibly infected.",
         "text_hash": "e0ef03a968acb231dd0c76bf2f6b477e",
         "label": "Biased",
-        "gold_label": "Non-biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "Good",
         "class-1": null,
         "class-2": null
@@ -274,7 +274,7 @@
         "text": "In March, President Trump signed an executive order closing the southern border to stop the spread of the virus from undocumented immigrants who are possibly infected.",
         "text_hash": "e0ef03a968acb231dd0c76bf2f6b477e",
         "label": "Non-biased",
-        "gold_label": "Non-biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "Because he thought to save other people by stop or spreading virus through out the world",
         "class-1": "Other",
         "class-2": null
@@ -284,7 +284,7 @@
         "text": "Donald Trump became the first U.S. president to attend the annual March for Life in Washington on Friday, unleashing a fierce attack on his Democratic rivals during a rally in an election-year show of support for opponents of abortion rights.",
         "text_hash": "978ac665802a7d4883e56efe96ce5519",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Biased",
         "rationale-freeform": "i have attend the ,march for life in washington.",
         "class-1": "Word choice",
         "class-2": null
@@ -294,7 +294,7 @@
         "text": "Donald Trump became the first U.S. president to attend the annual March for Life in Washington on Friday, unleashing a fierce attack on his Democratic rivals during a rally in an election-year show of support for opponents of abortion rights.",
         "text_hash": "978ac665802a7d4883e56efe96ce5519",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Biased",
         "rationale-freeform": "Biased. This news doesn't have a source, it just influences a reader's opinion on top of Donald Trump and Democrats.",
         "class-1": "Other",
         "class-2": null
@@ -304,7 +304,7 @@
         "text": "Facebook Chief Operating Officer Sheryl Sandberg has recently donated $1 million to Planned Parenthood Action Fund. In an interview with HuffPost, Sandberg said she was motivated by the \u201cdraconian laws\u201d protecting unborn children recently passed in red states like Alabama, Missouri, and Georgia.",
         "text_hash": "6cc9fa1c80703273a552fa8a82c1cfed",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "ITS NOT BIASED ITS LOOKS LIKE MOTIVATING",
         "class-1": null,
         "class-2": null
@@ -314,7 +314,7 @@
         "text": "Facebook Chief Operating Officer Sheryl Sandberg has recently donated $1 million to Planned Parenthood Action Fund. In an interview with HuffPost, Sandberg said she was motivated by the \u201cdraconian laws\u201d protecting unborn children recently passed in red states like Alabama, Missouri, and Georgia.",
         "text_hash": "6cc9fa1c80703273a552fa8a82c1cfed",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Sheryl Sandberg has recently donated $1 million to Planned Parenthood Action Fund that makes me biased",
         "class-1": "Word choice",
         "class-2": null
@@ -404,7 +404,7 @@
         "text": "This is how Warren has pushed the boundaries of progressive policy since coming to Washington. Instead of relying on the traditional D.C. think tank world, she made her office into her very own think tank.",
         "text_hash": "3fb68220e803970fb83bddabbdd14d19",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "I don't believe this is biased, because it shows no favoritism towards anyone, it is simply stating how Elizabeth Warren is using her own think tank rather than relying on traditional methods in regards to progressive policy.",
         "class-1": "Other",
         "class-2": null
@@ -414,7 +414,7 @@
         "text": "This is how Warren has pushed the boundaries of progressive policy since coming to Washington. Instead of relying on the traditional D.C. think tank world, she made her office into her very own think tank.",
         "text_hash": "3fb68220e803970fb83bddabbdd14d19",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Biased based on a singular persons view point of the situation. Not an objective statement.",
         "class-1": "Other",
         "class-2": null
@@ -504,7 +504,7 @@
         "text": "It is also worth noting that the \"white nationalist\" in question, Patrick Casey, does not claim to be a white nationalist but an identitarian activist, a group the far-left media regularly attack as racist.",
         "text_hash": "7c9b89b2c1d6abab5980d3808c5a4cc0",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "States a political affiliation.",
         "class-1": "Other",
         "class-2": null
@@ -514,7 +514,7 @@
         "text": "It is also worth noting that the \"white nationalist\" in question, Patrick Casey, does not claim to be a white nationalist but an identitarian activist, a group the far-left media regularly attack as racist.",
         "text_hash": "7c9b89b2c1d6abab5980d3808c5a4cc0",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the statement regarding \" Patrick Casey, does not claim to be a white nationalist \" makes biased",
         "class-1": "Word choice",
         "class-2": null
@@ -644,7 +644,7 @@
         "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.",
         "text_hash": "81c3e8a0e95f5b0d7121b50cc13952a6",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "birtherism\" on its platform during this year\u2019s U.S. presidential election",
         "class-1": "Word choice",
         "class-2": null
@@ -654,7 +654,7 @@
         "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.",
         "text_hash": "81c3e8a0e95f5b0d7121b50cc13952a6",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "I believe this is biased because it refers to \"birtherism\" as a type of conspiracy theory.",
         "class-1": "Word choice",
         "class-2": null
@@ -664,7 +664,7 @@
         "text": "Angry Democrats blamed Republicans for what they see as a debacle that could leave millions of Americans without health care. ",
         "text_hash": "c81dae95985d22ecc80d054917d88cc6",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "The author states how the democrats feel and whom they are blaming, and since they do not state how they feel or who they blame, I would consider this unbiased.",
         "class-1": "Other",
         "class-2": null
@@ -674,7 +674,7 @@
         "text": "Angry Democrats blamed Republicans for what they see as a debacle that could leave millions of Americans without health care. ",
         "text_hash": "c81dae95985d22ecc80d054917d88cc6",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "the statement regarding \"  Angry Democrats\" makes biased",
         "class-1": "Word choice",
         "class-2": null
@@ -684,7 +684,7 @@
         "text": "Things look less promising in the U.S. Last week, the Environmental Protection Agency confirmed that the Trump administration had relaxed enforcement of regulations to help polluting industries deal with the pandemic.",
         "text_hash": "c6a54b7af5ff0517bf05808b7976e869",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "It is biased because it negatively cites actions by the Trump administration from the author's point of view, the text has no name source, it only cites that an agency confirmed it, but does not indicate further details of this confirmation.",
         "class-1": "Other",
         "class-2": null
@@ -694,7 +694,7 @@
         "text": "Things look less promising in the U.S. Last week, the Environmental Protection Agency confirmed that the Trump administration had relaxed enforcement of regulations to help polluting industries deal with the pandemic.",
         "text_hash": "c6a54b7af5ff0517bf05808b7976e869",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "GOOD",
         "class-1": null,
         "class-2": null
@@ -724,7 +724,7 @@
         "text": "Sen. Bernie Sanders on Tuesday unveiled a massive tax on the wealthiest Americans that aims to diminish income inequality -- a central theme of his campaign -- and at least begin to finance the steep price tags for the numerous government programs the Democratic presidential candidate is proposing.",
         "text_hash": "e259cd7f330ad626a5107c395f40920f",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Stating the facts without a political slant.",
         "class-1": "Stating facts",
         "class-2": null
@@ -734,7 +734,7 @@
         "text": "Sen. Bernie Sanders on Tuesday unveiled a massive tax on the wealthiest Americans that aims to diminish income inequality -- a central theme of his campaign -- and at least begin to finance the steep price tags for the numerous government programs the Democratic presidential candidate is proposing.",
         "text_hash": "e259cd7f330ad626a5107c395f40920f",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Bernie Sanders's campaign  makes biased",
         "class-1": null,
         "class-2": null
@@ -824,7 +824,7 @@
         "text": "However, the GOP tax cuts benefited small business and the middle class \u2014 not just the wealthy, as several Democrat candidates have suggested.",
         "text_hash": "710f65bef2ab6fa033490ac34de5d31e",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Simply stating the facts of the matter.",
         "class-1": "Stating facts",
         "class-2": null
@@ -834,7 +834,7 @@
         "text": "However, the GOP tax cuts benefited small business and the middle class \u2014 not just the wealthy, as several Democrat candidates have suggested.",
         "text_hash": "710f65bef2ab6fa033490ac34de5d31e",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "The statement regarding GOP tax cuts makes biased",
         "class-1": "Self-explanatory",
         "class-2": null
@@ -924,7 +924,7 @@
         "text": "In the dominant political fight in D.C., Donald Trump wants a giant wall along the U.S./Mexico border.",
         "text_hash": "17346ae298f493dd4da7fd5f88de830a",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "it is unbiased.",
         "class-1": "Self-explanatory",
         "class-2": null
@@ -934,7 +934,7 @@
         "text": "In the dominant political fight in D.C., Donald Trump wants a giant wall along the U.S./Mexico border.",
         "text_hash": "17346ae298f493dd4da7fd5f88de830a",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "It is something that Donald Trump has said himself, he would like to build a giant wall along the border. A quote showing no clear sign of bias.",
         "class-1": "Stating facts",
         "class-2": null
@@ -944,7 +944,7 @@
         "text": "But last Wednesday, when the Heritage Clinic for Women in Grand Rapids, Michigan, opened in the morning, the staff were startled to find 25 to 30 protesters assembling, many of them holding single red roses. Ignoring the no-trespassing signs, they began swarming the clinic\u2019s parking lot, rushing patients as they got out of their cars.",
         "text_hash": "ae022e767e5743258efff676043be4a5",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "The statement is describing an event and what transpires there, without referring to it as good or bad, so I would say it's unbiased.",
         "class-1": "Stating facts",
         "class-2": null
@@ -954,7 +954,7 @@
         "text": "But last Wednesday, when the Heritage Clinic for Women in Grand Rapids, Michigan, opened in the morning, the staff were startled to find 25 to 30 protesters assembling, many of them holding single red roses. Ignoring the no-trespassing signs, they began swarming the clinic\u2019s parking lot, rushing patients as they got out of their cars.",
         "text_hash": "ae022e767e5743258efff676043be4a5",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "It is not biased, as it is not an influential text, it just quotes a news.",
         "class-1": "Stating facts",
         "class-2": null
@@ -1044,7 +1044,7 @@
         "text": "By forcing us to abandon our regular routines and habits, if not our livelihoods, the pandemic has led us to postpone many of the activities from which we derive joy and pleasure. Our society often operates under the premise of instant gratification, a concept that has gone out the window given the uncertainty surrounding the virus.",
         "text_hash": "f353ba3f9ce3dee3951e9e1e4fc3ef12",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "This statement was not biased, this statement contains the situation of the curfew.",
         "class-1": "Self-explanatory",
         "class-2": null
@@ -1054,7 +1054,7 @@
         "text": "By forcing us to abandon our regular routines and habits, if not our livelihoods, the pandemic has led us to postpone many of the activities from which we derive joy and pleasure. Our society often operates under the premise of instant gratification, a concept that has gone out the window given the uncertainty surrounding the virus.",
         "text_hash": "f353ba3f9ce3dee3951e9e1e4fc3ef12",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "This is should be totally biased towards the pandemic.",
         "class-1": null,
         "class-2": null
@@ -1084,7 +1084,7 @@
         "text": "Proponents of stricter protections for students argue the DOE\u2019s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans.",
         "text_hash": "1b2d74281b73bfb6691df6aa5d75d2c1",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "protections for students is very biased",
         "class-1": "Other",
         "class-2": null
@@ -1094,7 +1094,7 @@
         "text": "Proponents of stricter protections for students argue the DOE\u2019s recent rollback of Obama-era rules aimed at protecting students from predatory for-profit colleges will only lead to even more student defaulting on their loans.",
         "text_hash": "1b2d74281b73bfb6691df6aa5d75d2c1",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "good",
         "class-1": null,
         "class-2": null
@@ -1104,7 +1104,7 @@
         "text": "At least 25 transgender or gender-nonconforming people were killed in violent attacks in the United States last year, according to the Human Rights Campaign, which has been tracking anti-trans violence since at least 2015.",
         "text_hash": "5c788b776be740dae207b774379faf79",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Text only state some statistical facts that are tracked by an institution (that is mentioned as the source).",
         "class-1": "Stating facts",
         "class-2": null
@@ -1114,7 +1114,7 @@
         "text": "At least 25 transgender or gender-nonconforming people were killed in violent attacks in the United States last year, according to the Human Rights Campaign, which has been tracking anti-trans violence since at least 2015.",
         "text_hash": "5c788b776be740dae207b774379faf79",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Simply provided the statistic of people killed. Unbiased.",
         "class-1": "Stating facts",
         "class-2": null
@@ -1164,7 +1164,7 @@
         "text": "It\u2019s also true that in no time in modern American history has a president\u2019s disposition and rhetoric conflicted more dramatically with the outcomes of his administration. But that has been a net win for the Constitution.",
         "text_hash": "87fa84c353af2f363766d4a1a7e6c713",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "yes, in modern times president's disposition and rhetoric outcomes of his administration.",
         "class-1": "Other",
         "class-2": null
@@ -1174,7 +1174,7 @@
         "text": "It\u2019s also true that in no time in modern American history has a president\u2019s disposition and rhetoric conflicted more dramatically with the outcomes of his administration. But that has been a net win for the Constitution.",
         "text_hash": "87fa84c353af2f363766d4a1a7e6c713",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "No one in specific is being singled out.",
         "class-1": "Other",
         "class-2": null
@@ -1284,7 +1284,7 @@
         "text": "Many Latino voters know from personal and family experience how U.S. foreign policies drive people from their homes. ",
         "text_hash": "2bbba5522d262e081d5e5e41f008b6ac",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Statistics provided by the national survey of Latinos conducted in 2018 suggests that policy resulted in many deportations.",
         "class-1": "Verifiability",
         "class-2": null
@@ -1294,7 +1294,7 @@
         "text": "Many Latino voters know from personal and family experience how U.S. foreign policies drive people from their homes. ",
         "text_hash": "2bbba5522d262e081d5e5e41f008b6ac",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "It shows bias based on blanketing in the Latinos with people getting driven from their homes. An opinion statement without statistics to back up the claim.",
         "class-1": "Other",
         "class-2": null
@@ -1304,7 +1304,7 @@
         "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
         "text_hash": "1b8974ae7ad1e7562e4f04c307a42e61",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "I hope the ones doing the pushing will reconsider.",
         "class-1": "Word choice",
         "class-2": null
@@ -1314,7 +1314,7 @@
         "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
         "text_hash": "1b8974ae7ad1e7562e4f04c307a42e61",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Concepts of Democrats supremacy were at the heart of the defense of slavery",
         "class-1": "Other",
         "class-2": null
@@ -1384,7 +1384,7 @@
         "text": "Cancellation of a two-week United Nations meeting on gender equality, female empowerment and \"women\u2019s issues\" due to the coronavirus outbreak sparked an outcry from 12,000 disappointed delegates, diplomats and non-government organizations scheduled to fly into New York for the event and work towards ending \"default male thinking\" across the globalist organization.",
         "text_hash": "8e17401119efc26bcdd120cd1710ce9f",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "ITS UNBIASED BECAUSE THEY TAKING ABOUT EQUALITY, WOMEN EMPOWERMENT THESE ARE BASIC IMPORTANT IN TODAYS WORLD AND MUSTTREAT EQUAL TO EVERYONE",
         "class-1": "Other",
         "class-2": null
@@ -1394,7 +1394,7 @@
         "text": "Cancellation of a two-week United Nations meeting on gender equality, female empowerment and \"women\u2019s issues\" due to the coronavirus outbreak sparked an outcry from 12,000 disappointed delegates, diplomats and non-government organizations scheduled to fly into New York for the event and work towards ending \"default male thinking\" across the globalist organization.",
         "text_hash": "8e17401119efc26bcdd120cd1710ce9f",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "because of due to the coronavirus outbreak sparked an outcry from 12,000 disappointed delegates, diplomats and non-government organizations scheduled to fly into New York for the event and work towards ending \"default male thinking\" across the globalist organization",
         "class-1": "Word choice",
         "class-2": null
@@ -1584,7 +1584,7 @@
         "text": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday \u2014 and who received straight-armed Nazi-like salutes in response ...",
         "text_hash": "d22ed5df12628a12bc4ef0e09f08a877",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "A new generation of nationalists sees a chance to ride Donald Trump's coattails into the capital. But first they need to do some serious re-branding.so i think it is biased",
         "class-1": "Other",
         "class-2": null
@@ -1594,7 +1594,7 @@
         "text": "The white nationalist who said \"Hail Trump\" and \"hail our people\" during a conference in Washington D.C. on Saturday \u2014 and who received straight-armed Nazi-like salutes in response ...",
         "text_hash": "d22ed5df12628a12bc4ef0e09f08a877",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "nothing",
         "class-1": null,
         "class-2": null
@@ -1664,7 +1664,7 @@
         "text": "Numerous posts claim the virus has been patented \u2014 and some even suggest, incorrectly, that the virus was made in a lab and a vaccine already exists.",
         "text_hash": "dbc10f7c8c4691ae44b2ea7ff7e384d2",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the virus has been patented so the virus was made in a lab.",
         "class-1": "Other",
         "class-2": null
@@ -1674,7 +1674,7 @@
         "text": "Numerous posts claim the virus has been patented \u2014 and some even suggest, incorrectly, that the virus was made in a lab and a vaccine already exists.",
         "text_hash": "dbc10f7c8c4691ae44b2ea7ff7e384d2",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "There is a level of doubt involved with the limited amount of information being presented. I feel like there is a sentiment of distrust and opinion being disclosed.",
         "class-1": "Other",
         "class-2": null
@@ -1884,7 +1884,7 @@
         "text": "He is enjoying the benefits of those guns while working hard to be sure average Americans cannot own them.",
         "text_hash": "cc244bfc54bd3e254a18f627d193a79a",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "This to me sounds like an opinion, how does the writer know he is enjoying his guns?",
         "class-1": "Other",
         "class-2": null
@@ -1894,7 +1894,7 @@
         "text": "He is enjoying the benefits of those guns while working hard to be sure average Americans cannot own them.",
         "text_hash": "cc244bfc54bd3e254a18f627d193a79a",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the statement regarding guns which average Americans cant owe makes biased",
         "class-1": "Other",
         "class-2": null
@@ -1904,7 +1904,7 @@
         "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.",
         "text_hash": "95429eb5d6a99c5e575716b88cfd5b77",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "i thought this passage is wright and best one",
         "class-1": null,
         "class-2": null
@@ -1914,7 +1914,7 @@
         "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.",
         "text_hash": "95429eb5d6a99c5e575716b88cfd5b77",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "To say that to battle is complicated by vocal anti-vaccination movement seems trustable and belivable. Unbiased.",
         "class-1": "Word choice",
         "class-2": null
@@ -1924,7 +1924,7 @@
         "text": "The legislation also provides work permits for a huge number of illegal migrants who have jobs in the very broad category of \"essential critical infrastructure.\" That category includes janitors and food workers in hospitals, as well as stoop labor in agriculture.",
         "text_hash": "9e4f32e9e0dd17c42940e7ada454bbb6",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Just the facts, no political angle.",
         "class-1": "Stating facts",
         "class-2": null
@@ -1934,7 +1934,7 @@
         "text": "The legislation also provides work permits for a huge number of illegal migrants who have jobs in the very broad category of \"essential critical infrastructure.\" That category includes janitors and food workers in hospitals, as well as stoop labor in agriculture.",
         "text_hash": "9e4f32e9e0dd17c42940e7ada454bbb6",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "good",
         "class-1": null,
         "class-2": null
@@ -1944,7 +1944,7 @@
         "text": "The wealthy are quite reasonably reluctant to give away more of their money than they have to and would simply move to more tax friendly jurisdictions, thus meaning the governments in high tax jurisdictions would have less to spend on worthy projects.",
         "text_hash": "221b4a06fb25fa5e07c7576ab263fb18",
         "label": "Biased",
-        "gold_label": "Non-biased",
+        "gold_label": "Biased",
         "rationale-freeform": "I believe this is biased because it claims that the wealthy are reasonably reluctant to pay more tax and would move, resulting in money being spent on less worthy projects, which is untrue.",
         "class-1": "Word choice",
         "class-2": "Other"
@@ -1954,7 +1954,7 @@
         "text": "The wealthy are quite reasonably reluctant to give away more of their money than they have to and would simply move to more tax friendly jurisdictions, thus meaning the governments in high tax jurisdictions would have less to spend on worthy projects.",
         "text_hash": "221b4a06fb25fa5e07c7576ab263fb18",
         "label": "Non-biased",
-        "gold_label": "Non-biased",
+        "gold_label": "Biased",
         "rationale-freeform": "because of  The wealthy are quite reasonably reluctant to give away more of their money than they have to and would simply move to more tax friendly jurisdictions, thus meaning the governments in high tax jurisdictions would have less to spend on worthy projects.",
         "class-1": "Word choice",
         "class-2": null
@@ -1984,7 +1984,7 @@
         "text": "Instead of motivating kids to payback their loans, Clinton\u2019s plan might actually lead to the decline in liberal arts enrollment.",
         "text_hash": "9b7409e3f64a8d87a6f2ff0e42160eed",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "Clinton\u2019s plan might actually lead to the decline in liberal arts enrollment.",
         "class-1": "Word choice",
         "class-2": null
@@ -1994,7 +1994,7 @@
         "text": "Instead of motivating kids to payback their loans, Clinton\u2019s plan might actually lead to the decline in liberal arts enrollment.",
         "text_hash": "9b7409e3f64a8d87a6f2ff0e42160eed",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "because of motivating kids to payback their loans, Clinton\u2019s plan might actually lead to the decline in liberal arts enrollment",
         "class-1": "Word choice",
         "class-2": null
@@ -2084,7 +2084,7 @@
         "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.",
         "text_hash": "95429eb5d6a99c5e575716b88cfd5b77",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "complicated by a vocal anti-vaccination movement.",
         "class-1": "Word choice",
         "class-2": null
@@ -2094,7 +2094,7 @@
         "text": "Samoa on Thursday closed all non-essential public and private services for two days to combat a measles epidemic that has killed more than 60 people, mostly babies and children, in a battle complicated by a vocal anti-vaccination movement.",
         "text_hash": "95429eb5d6a99c5e575716b88cfd5b77",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "i heard about the complicated battle by vocal anti vaccination movement",
         "class-1": "Other",
         "class-2": null
@@ -2104,7 +2104,7 @@
         "text": "David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.",
         "text_hash": "d4683db9215e27e30051ec91a61a0f6c",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "cited the coronavirus pandemic in telling Parscale",
         "class-1": "Word choice",
         "class-2": null
@@ -2114,7 +2114,7 @@
         "text": "David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.",
         "text_hash": "d4683db9215e27e30051ec91a61a0f6c",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "because of David Rothkopf, an anti-Trump commentator, cited the coronavirus pandemic in telling Parscale \"you should have considered the term 'Death Star' a little more carefully-what with the 100,000 or more people who are likely to die because of your candidate's failed leadership.",
         "class-1": "Word choice",
         "class-2": null
@@ -2304,7 +2304,7 @@
         "text": "President Donald Trump ridiculed Democrats promoting the Green New Deal on Thursday, during a campaign rally in Iowa.",
         "text_hash": "013085d3bd0f55ab1ba9b90d5c4788fe",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Biased",
         "rationale-freeform": "Simply stating the facts of the matter.",
         "class-1": "Stating facts",
         "class-2": null
@@ -2314,7 +2314,7 @@
         "text": "President Donald Trump ridiculed Democrats promoting the Green New Deal on Thursday, during a campaign rally in Iowa.",
         "text_hash": "013085d3bd0f55ab1ba9b90d5c4788fe",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Biased",
         "rationale-freeform": "It is biased.",
         "class-1": "Self-explanatory",
         "class-2": null
@@ -2344,7 +2344,7 @@
         "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
         "text_hash": "1b8974ae7ad1e7562e4f04c307a42e61",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "I hope the ones doing the pushing will reconsider.",
         "class-1": "Word choice",
         "class-2": null
@@ -2354,7 +2354,7 @@
         "text": "There may be pushback among Democrats. If so, I hope the ones doing the pushing will reconsider. We have treated our younger generations, and many older people, unjustly. The act of recognizing an injustice we hadn\u2019t seen before makes us more human and refines us as moral beings.",
         "text_hash": "1b8974ae7ad1e7562e4f04c307a42e61",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Concepts of Democrats supremacy were at the heart of the defense of slavery",
         "class-1": "Other",
         "class-2": null
@@ -2364,7 +2364,7 @@
         "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.",
         "text_hash": "10365c7607648f71a26bed58b9fb36b8",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "The company was totally against the women.",
         "class-1": "Other",
         "class-2": null
@@ -2374,7 +2374,7 @@
         "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.",
         "text_hash": "10365c7607648f71a26bed58b9fb36b8",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Biased. It influences a negative opinion on Bloomberg and its company, Bloomberg LP, since this news does not have a source only presents allegations.",
         "class-1": "Other",
         "class-2": null
@@ -2404,7 +2404,7 @@
         "text": "Working-class Americans, like those who make up the majority of South Bend residents, have secured the largest wage hikes in the nation compared to all other economic demographic groups \u2014 a direct result of Trump tightening the labor market.",
         "text_hash": "59f5d4bb4dd366b3a5cf50684af4f598",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "This is biased because it claims that working-class Americans have secured the largest wage hikes due to Trump.",
         "class-1": "Other",
         "class-2": null
@@ -2414,7 +2414,7 @@
         "text": "Working-class Americans, like those who make up the majority of South Bend residents, have secured the largest wage hikes in the nation compared to all other economic demographic groups \u2014 a direct result of Trump tightening the labor market.",
         "text_hash": "59f5d4bb4dd366b3a5cf50684af4f598",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the statement regarding  Working-class Americans that  have secured the largest wage hikes in the nation compared to all other economic demographic groups - that makes biased",
         "class-1": "Word choice",
         "class-2": null
@@ -2444,7 +2444,7 @@
         "text": "Since Roe v. Wade, when the Supreme Court recognized the constitutional right to an abortion, state lawmakers have devised novel ways to cut off access to the procedure without banning it outright. One strategy is to require clinics and doctors to comply with an ever-expanding list of regulations, with the goal of essentially red-taping providers out of business.",
         "text_hash": "a7808626e05b3fbf8c4716ace4e849eb",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Assigning the goal of red-taping providers out of business is showing a personal bias of the situation.",
         "class-1": "Other",
         "class-2": null
@@ -2454,7 +2454,7 @@
         "text": "Since Roe v. Wade, when the Supreme Court recognized the constitutional right to an abortion, state lawmakers have devised novel ways to cut off access to the procedure without banning it outright. One strategy is to require clinics and doctors to comply with an ever-expanding list of regulations, with the goal of essentially red-taping providers out of business.",
         "text_hash": "a7808626e05b3fbf8c4716ace4e849eb",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "It will be biased because abortion is very bad condition.",
         "class-1": "Other",
         "class-2": null
@@ -2704,7 +2704,7 @@
         "text": "The Sandy Hook tragedy rocked the United States when a 20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself.",
         "text_hash": "7f68dd4e4e18d2c5e520fef07d34069d",
         "label": "Non-biased",
-        "gold_label": "Non-biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "It is simply providing the factual information on the events",
         "class-1": "Stating facts",
         "class-2": null
@@ -2714,7 +2714,7 @@
         "text": "The Sandy Hook tragedy rocked the United States when a 20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself.",
         "text_hash": "7f68dd4e4e18d2c5e520fef07d34069d",
         "label": "Non-biased",
-        "gold_label": "Non-biased",
+        "gold_label": "No agreement",
         "rationale-freeform": "because of  20-year-old man shot and killed his mother at home and then went on a rampage at the school, also killing himself. he treated equally.",
         "class-1": "Word choice",
         "class-2": null
@@ -2764,7 +2764,7 @@
         "text": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States.",
         "text_hash": "001794eddfaa81edcd60ad0bbcb8665b",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "I believe it is biased because it has a positive tone when talking about conservatives, describing the probability of rolling back abortion rights in the US as a \"huge victory\".",
         "class-1": "Word choice",
         "class-2": null
@@ -2774,7 +2774,7 @@
         "text": "With two justices appointed in recent years by President Donald Trump, the Supreme Court has appeared primed and ready to deliver a huge victory for conservatives looking to roll back abortion rights in the United States.",
         "text_hash": "001794eddfaa81edcd60ad0bbcb8665b",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "The two justices being appointed is factual, rolling back abortion rights is a nuanced topic.",
         "class-1": "Stating facts",
         "class-2": "Other"
@@ -2784,7 +2784,7 @@
         "text": "Amid pressure from Washington, Mexico is backpedaling on promises of better treatment for Central American migrants, leaving hundreds stranded in unsanitary camps near its southern border and allegations of irregular detentions.",
         "text_hash": "27973934f1ea318ee1d77e3fb9cb7a61",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "The United States is seeing a rise in apprehensions of unaccompanied migrant children, most from Central America, along its southern border",
         "class-1": "Other",
         "class-2": null
@@ -2794,7 +2794,7 @@
         "text": "Amid pressure from Washington, Mexico is backpedaling on promises of better treatment for Central American migrants, leaving hundreds stranded in unsanitary camps near its southern border and allegations of irregular detentions.",
         "text_hash": "27973934f1ea318ee1d77e3fb9cb7a61",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Because Migrant camps overflow as mexico cracks down after Trump threats.",
         "class-1": "Other",
         "class-2": null
@@ -2904,7 +2904,7 @@
         "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.",
         "text_hash": "81c3e8a0e95f5b0d7121b50cc13952a6",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Not allowing somebody to use their free speech to express their beliefs is biased against their way of thinking, it doesn't matter if they are right or wrong. People reading and watching on YouTube can decide for themselves what they want to believe. Banning anything right-wing is biased against the right wing, whether they be right or wrong. Sometimes conspiracy theories are true.",
         "class-1": "Other",
         "class-2": null
@@ -2914,7 +2914,7 @@
         "text": "YouTube is making clear there will be no \"birtherism\" on its platform during this year\u2019s U.S. presidential election \u2013 a belated response to a type of conspiracy theory more prevalent in the 2012 race.",
         "text_hash": "81c3e8a0e95f5b0d7121b50cc13952a6",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "biased because it attributes a judgment to youtube's attitude when it says it's ''a belated response'' therefore, if there is judgment, there is no impartiality.",
         "class-1": "Other",
         "class-2": null
@@ -2944,7 +2944,7 @@
         "text": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity, Sanders could instead have turned to an array of \"progressive prosecutors.",
         "text_hash": "d6a529ba73e1da841f38375485ac6032",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "i thought is passage must wright one",
         "class-1": null,
         "class-2": null
@@ -2954,7 +2954,7 @@
         "text": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity, Sanders could instead have turned to an array of \"progressive prosecutors.",
         "text_hash": "d6a529ba73e1da841f38375485ac6032",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "If task force candidates from these organizations were absolute non-starters for presumptive presidential nominee Joe Biden, because they want to treat people who have committed crimes with too much human dignity",
         "class-1": "Word choice",
         "class-2": null
@@ -3024,7 +3024,7 @@
         "text": "The Trump tax cuts also doubled the child tax credit and expanded its eligibility, which greatly helps the American working-class family.",
         "text_hash": "bef3592a9358e458b7a96f38c23edf8a",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "child",
         "class-1": "Word choice",
         "class-2": null
@@ -3034,7 +3034,7 @@
         "text": "The Trump tax cuts also doubled the child tax credit and expanded its eligibility, which greatly helps the American working-class family.",
         "text_hash": "bef3592a9358e458b7a96f38c23edf8a",
         "label": "Biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "because of The Trump tax cuts also doubled the child tax credit and expanded its eligibility, which greatly helps the American working-class family.",
         "class-1": "Word choice",
         "class-2": null
@@ -3064,7 +3064,7 @@
         "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.",
         "text_hash": "10365c7607648f71a26bed58b9fb36b8",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Bloomberg LP, fostered a hostile environment for female employees.",
         "class-1": "Word choice",
         "class-2": null
@@ -3074,7 +3074,7 @@
         "text": "Dogging Bloomberg\u2019s campaign are allegations that he made inappropriate comments toward women and that his company, Bloomberg LP, fostered a hostile environment for female employees.",
         "text_hash": "10365c7607648f71a26bed58b9fb36b8",
         "label": "Non-biased",
-        "gold_label": "Biased",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Saying that Bloomberg fostered some hostile environnement for female employees is highly belivable considering the allegations. Unbiased",
         "class-1": "Word choice",
         "class-2": null
@@ -3084,7 +3084,7 @@
         "text": "Earlier this month, US President Donald Trump said US special forces would be withdrawn from northern Syria, in what was widely seen as betrayal of the Kurds and a green light for a Turkish attack.",
         "text_hash": "ea74e5b43d4b8eb5d7ebda6d8321b086",
         "label": "Biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "the trump's statement regarding US special forces makes biased",
         "class-1": "Self-explanatory",
         "class-2": null
@@ -3094,7 +3094,7 @@
         "text": "Earlier this month, US President Donald Trump said US special forces would be withdrawn from northern Syria, in what was widely seen as betrayal of the Kurds and a green light for a Turkish attack.",
         "text_hash": "ea74e5b43d4b8eb5d7ebda6d8321b086",
         "label": "Non-biased",
-        "gold_label": "No agreement",
+        "gold_label": "Non-biased",
         "rationale-freeform": "Earlier this month, US President Donald Trump said US special forces would be withdrawn from northern Syria.",
         "class-1": "Word choice",
         "class-2": null

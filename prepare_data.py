@@ -12,7 +12,8 @@ import hashlib
 df_a_mbic = pd.read_json('./mbic/annotations_cleaned.json')
 df_a_free = pd.read_json('./mbic/freeform/coded_consolidated_annotations.json')
 
-df_labels = pd.read_json('./mbic/labeled_dataset.json')
+# use expert labels from MBIC/BABE as gold label
+df_labels = pd.read_csv('./mbic/final_labels_SG1.csv', delimiter=';')
 
 df_mbic_prepared = pd.DataFrame()
 df_free_prepared = pd.DataFrame()
@@ -32,7 +33,7 @@ def hash_text(text):
 
 # first generate a hash of each sentence in the labels and annotations so we can
 # assign them a consistent identifier
-df_labels['text_hash'] = df_labels['sentence'].apply(lambda x : hash_text(x))
+df_labels['text_hash'] = df_labels['text'].apply(lambda x : hash_text(x))
 
 # df_prepared needs the following:
 # annotator, text, label, gold_label, rationale-keywords, rationale-freeform
@@ -49,12 +50,13 @@ def find_gold_labels(src_df, dest_df):
     gold_labels = []
 
     for _, row in dest_df.iterrows():
-        gold_label = src_df.loc[src_df['text_hash'] == row['text_hash']]['Label_bias'].item()
-        
-        if not gold_label:
+        gold_label = src_df.loc[src_df['text_hash'] == row['text_hash']]['label_bias']
+
+        if gold_label.any():
+            gold_labels.append(gold_label.item())
+        else:
+            print(f'{row}')
             print(f'Warning: no match found. Prepared table may be misaligned.')
-        
-        gold_labels.append(gold_label)
     
     return gold_labels
 
