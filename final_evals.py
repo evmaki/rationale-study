@@ -23,7 +23,8 @@ def birch_clusters(X, k):
 #
 
 def compute_error(num_agreed, num_annotations):
-    return (num_agreed-num_annotations)/num_annotations
+    return num_agreed/num_annotations
+    # return (num_agreed-num_annotations)/num_annotations
 
 def random_subset_error(df, N, n):
     """ Computes the error for a size N subset of annotations from df for n runs
@@ -131,7 +132,7 @@ def keyword_evaluations():
     df = pd.read_json('./prepared_mbic_annotations.json')
 
     # pick either the google model or our custom model trained the articles in MBIC
-    word2vec_model = 'custom' # 'word2vec-google-news-300'
+    word2vec_model = 'custom' # 'word2vec-google-news-300' 
     print(f'Using Word2Vec model \"{word2vec_model}\"')
 
     # get the learned word embeddings from the word2vec model
@@ -142,6 +143,20 @@ def keyword_evaluations():
         lambda x : word2vec.keywords_to_vectors(x, wv, print_misses=False)[0]
     )
     
+    # TODO repeating this is inefficient and could be done better
+    # report how many of the keywords/phrases are not known by the model
+    df['total_tokens'] = df['rationale-keywords'].apply(
+        lambda x : len(word2vec.keywords_to_vectors(x, wv, print_misses=False)[1].keys())
+    )
+
+    df['unknown_tokens'] = df['rationale-keywords'].apply(
+        lambda x : sum(y == False for y in word2vec.keywords_to_vectors(x, wv, print_misses=False)[1].values())
+    )
+
+    print(f'Total keyword tokens: {df["total_tokens"].sum()}')
+    print(f'Total unknown tokens: {df["unknown_tokens"].sum()}')
+    print(f'Percent unknown:      {df["unknown_tokens"].sum()/df["total_tokens"].sum():.4f}')
+
     # do clustering and add the labels to the dataframe
     X = df['features'].tolist()
     k = 3
@@ -164,6 +179,22 @@ def keyword_evaluations():
         print(f'Random subset error for N = {N}, n = {n} runs')
         random_errors = random_subset_error(df, N, n)
         print(f'Mean: {statistics.mean(random_errors):.4f}')
+
+    # compute and report the error for the group of annotations with unknown keywords
+    df_unknown = df.loc[df['unknown_tokens'] > 0]
+    df_unknown['cluster'] = 'unknowns'
+    unknown_errors = cluster_error(df_unknown)
+
+    N = df_unknown.shape[0]
+    print('-'*100)
+    print(f'Annotations with unknown keywords, N = {N}')
+    print(f'Mean: {unknown_errors["unknowns"]:.4f}')
+    print('')
+
+    n = 10
+    print(f'Random subset error for N = {N}, n = {n} runs')
+    random_errors = random_subset_error(df, N, n)
+    print(f'Mean: {statistics.mean(random_errors):.4f}')
 
     plot_keyword_clusters(df, title=f'Clusters of keyword rationale content ({word2vec_model} model)')
 
@@ -220,6 +251,6 @@ def format_comparison_evaluations():
     print(f'Keyword (random subset), N = {N}, n = {n}')
     print(f'Error: {statistics.mean(random_subset_error(df_keys, N, n)):.4f}')
 
-format_comparison_evaluations()
-# keyword_evaluations()
+# format_comparison_evaluations()
+keyword_evaluations()
 # freeform_evaluations()
