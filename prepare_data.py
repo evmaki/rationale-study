@@ -10,7 +10,8 @@ import json
 import hashlib
 
 df_a_mbic = pd.read_json('./mbic/annotations_cleaned.json')
-df_a_free = pd.read_json('./mbic/freeform/coded_consolidated_annotations.json')
+# df_a_free = pd.read_json('./mbic/freeform/coded_consolidated_annotations.json')
+df_a_free = pd.read_json('./mbic/freeform/coded_consolidated_annotations_newclasses.json')
 
 # use expert labels from MBIC/BABE as gold label
 df_labels = pd.read_csv('./mbic/final_labels_SG1.csv', delimiter=';')
